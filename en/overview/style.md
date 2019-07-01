@@ -33,7 +33,7 @@ Some object has only one style. E.g.
 For example, a slider has 3 styles:
 - Background (main style)
 - Indicator
-- Know
+- Knob
 
 Every object type has its own style set/get functions. For example 
 ```c
