@@ -1,10 +1,10 @@
 # Styles
 
-*Styles* are used to set the appearance of the objects. A style is a structure variable with attributes like colors, paddings, opacity, etc. 
+*Styles* are used to set the appearance of the objects. A style is a structure variable with attributes like colors, paddings, opacity, font etc. 
 
 There is common style type called **lv_style_t** for every object type.
 
-Styles are assigned to the objects and by setting the fields of the `lv_style_t` variables you can influence the appearance of the objects using that style.
+By setting the fields of the `lv_style_t` variables and assigning to to an object you can influence the appearance of the objects.
 
 ``` important:: The objects store only a pointer to a style so the style cannot be a local variable which is destroyed after the function exists. **You should use static, global or dynamically allocated variables.**
 ```
@@ -23,7 +23,7 @@ void my_screen_create(void)
 
 ## Use the styles 
 
-The objects have a *Main style* which determines the appearance of their background or main part. However, object types can have additional styles too. 
+The objects have a *Main style* which determines the appearance of their background or main part. However, some object types have additional styles too. 
 
 Some object has only one style. E.g.
 - Label
@@ -41,7 +41,7 @@ const lv_style_t * btn_style = lv_btn_get_style(btn, LV_BTN_STYLE_REL);
 lv_btn_set_style(btn, LV_BTN_STYLE_REL, &new_style);
 ```
 
-The styles supported by an object type  (*LV_<OBJ_TYPE>_STYLE_<STYLE_TYPE>*) see the documentation of the particular [Object type](/object-types/index).
+To see the styles supported by an object type  (*LV_<OBJ_TYPE>_STYLE_<STYLE_TYPE>*) check the documentation of the particular [Object type](/object-types/index).
 
 If you **modify a style which is already used** by one or more objects then the objects have to be notified about the style is changed. You have two options to do that:
 
@@ -49,7 +49,7 @@ If you **modify a style which is already used** by one or more objects then the 
 /*Notify an object about its style is modified*/
 void lv_obj_refresh_style(lv_obj_t * obj); 
 
- /*Notify all objects with a given style. (NULL to notify all objects)*/
+/*Notify all objects with a given style. (NULL to notify all objects)*/
 void lv_obj_report_style_mod(void * style);
 ```
 
@@ -114,7 +114,7 @@ Used by objects containing lines or line-like elements
 ## Built-in styles
 There are several built-in styles in the library:
 
-![](http://docs.littlevgl.com/img/style-built-in.png "Built-in styles in LittlevGL Embedded Graphics Library")
+![](/misc/style-built-in.png "Built-in styles in LittlevGL Embedded Graphics Library")
 
 As you can see there is a style for screens, for buttons, plain and pretty styles and transparent styles as well. 
 
@@ -128,7 +128,19 @@ The built in styles are global `lv_style_t` variables. You can use them like:
 lv_btn_set_style(obj, LV_BTN_STYLE_REL, &lv_style_btn_rel)
 ```
 
-You can modify the built-in styles or you can create new styles. When creating new styles it is recommended to first copy a built-in style to be sure all fields are initialized with a proper value. The `lv_style_copy(&dest_style, &src_style)` can be used to copy styles.
+## Create new styles
+You can modify the built-in styles or you can create new styles. 
+
+When creating new styles it's recommended to first copy a built-in style with `lv_style_copy(&dest_style, &src_style)` to be sure all fields are initialized with a proper value. 
+
+Do not forget the created style should be `static` or global. For example:
+```c
+static lv_style_t my_red_style;
+lv_style_copy(&my_red_style, &lv_style_plain);
+my_red_style.body.main_color = LV_COLOR_RED;
+my_red_style.body.grad_color = LV_COLOR_RED;
+```
+
 
 ## Style animations
 You change the styles with animations using `lv_style_anim_...()` function. Two styles are required to represent the *start* and *end* state, and a third style which will be animated. Here is an example to show how it works.
@@ -148,7 +160,7 @@ Here you can learn more about the [Animations](/overview/animation).
 ## Style example
 The example below demonstrates the usage of styles.
 
-![Styles usage example in LittlevGL Embedded Graphics Library](http://docs.littlevgl.com/img/style-example.png)
+![](/misc/style-example.png "Styles usage example in LittlevGL Embedded Graphics Library")
 ```c
 /*Create a style*/
 static lv_style_t style1;
@@ -199,7 +211,7 @@ A theme can initialized by: `lv_theme_<name>_init(hue, font)`. Where `hue` is a 
 
 When a theme is initialized its styles can be used like this:
 
-![](http://docs.littlevgl.com/img/theme-example.png "Theme usage example in Littlev Embedded Graphics Library")
+![](/misc/theme-example.png "Theme usage example in Littlev Embedded Graphics Library")
 
 ```c
 /*Create a default slider*/
