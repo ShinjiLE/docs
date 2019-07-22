@@ -1,3 +1,6 @@
+```eval_rst
+:github_url: https://github.com/littlevgl/docs/blob/master/tr/overview/indev.md
+```
 # Input devices
 
 Input devices in general means:
@@ -24,6 +27,9 @@ lv_img_set_src(cursor_obj, &mouse_cursor_icon);             /*Set the image sour
 lv_indev_set_cursor(mouse_indev, cursor_obj);               /*Connect the image  object to the driver*/
 
 ``` 
+
+Note that the cursor object should have `lv_obj_set_click(cursor_obj, false)`. 
+For images *clicking* is disabled by default.
 
 ## Keypad and encoder
 

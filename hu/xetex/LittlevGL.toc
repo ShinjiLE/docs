@@ -1,7 +1,7 @@
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Fontos funkciók}{2}{chapter.1}
-\contentsline {chapter}{\numberline {2}Requirements}{3}{chapter.2}
-\contentsline {chapter}{\numberline {3}FAQ}{4}{chapter.3}
+\contentsline {chapter}{\numberline {2}Követelmények}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}GYIK}{4}{chapter.3}
 \contentsline {section}{\numberline {3.1}Where to get started?}{4}{section.3.1}
 \contentsline {section}{\numberline {3.2}Where can I ask questions?}{4}{section.3.2}
 \contentsline {section}{\numberline {3.3}Is my MCU/hardware supported?}{4}{section.3.3}
@@ -19,620 +19,634 @@
 \contentsline {section}{\numberline {3.15}Where can I find the documentation of the previous version (v5.3)?}{7}{section.3.15}
 \contentsline {subsection}{\numberline {3.15.1}Get started}{7}{subsection.3.15.1}
 \contentsline {subsubsection}{Élő demo}{7}{subsubsection*.3}
-\contentsline {subsubsection}{Micropython}{7}{subsubsection*.4}
-\contentsline {paragraph}{What is Micropython?}{7}{paragraph*.5}
-\contentsline {subparagraph}{Micropython highlights}{8}{subparagraph*.6}
-\contentsline {paragraph}{Why Micropython + LittlevGL?}{8}{paragraph*.7}
-\contentsline {subparagraph}{Here are some advantages of using LittlevGL in Micropython:}{8}{subparagraph*.8}
-\contentsline {subparagraph}{Micropython + LittlevGL could be used for:}{8}{subparagraph*.9}
-\contentsline {paragraph}{So how does it look like?}{9}{paragraph*.10}
-\contentsline {subparagraph}{A simple example}{9}{subparagraph*.11}
-\contentsline {paragraph}{How can I use it?}{9}{paragraph*.12}
-\contentsline {subparagraph}{Online Simulator}{9}{subparagraph*.13}
-\contentsline {subparagraph}{PC Simulator}{9}{subparagraph*.14}
-\contentsline {subparagraph}{The real thing}{9}{subparagraph*.15}
-\contentsline {paragraph}{Where can I find more information?}{9}{paragraph*.16}
-\contentsline {subsubsection}{Simulator on PC}{10}{subsubsection*.17}
-\contentsline {paragraph}{Select an IDE}{10}{paragraph*.18}
-\contentsline {paragraph}{Set-up Eclipse CDT}{10}{paragraph*.19}
-\contentsline {subparagraph}{Install Eclipse CDT}{10}{subparagraph*.20}
-\contentsline {subparagraph}{Install SDL 2}{10}{subparagraph*.21}
-\contentsline {subparagraph}{Linux}{10}{subparagraph*.22}
-\contentsline {subparagraph}{Windows}{11}{subparagraph*.23}
-\contentsline {subparagraph}{OSX}{11}{subparagraph*.24}
-\contentsline {subparagraph}{Pre-configured project}{11}{subparagraph*.25}
-\contentsline {subparagraph}{Add the pre-configured project to Eclipse CDT}{11}{subparagraph*.26}
-\contentsline {subparagraph}{Compile and Run}{11}{subparagraph*.27}
-\contentsline {subsection}{\numberline {3.15.2}Porting}{12}{subsection.3.15.2}
-\contentsline {subsubsection}{System overview}{12}{subsubsection*.28}
-\contentsline {subsubsection}{Set-up a project}{12}{subsubsection*.29}
-\contentsline {paragraph}{Get the library}{12}{paragraph*.30}
-\contentsline {paragraph}{Config file}{13}{paragraph*.31}
-\contentsline {paragraph}{Initialization}{13}{paragraph*.32}
-\contentsline {subsubsection}{Display interface}{13}{subsubsection*.33}
-\contentsline {paragraph}{Display buffer}{13}{paragraph*.34}
-\contentsline {paragraph}{Display driver}{14}{paragraph*.35}
-\contentsline {paragraph}{API}{16}{paragraph*.36}
-\contentsline {subsubsection}{Input device interface}{20}{subsubsection*.145}
-\contentsline {paragraph}{Types of input devices}{20}{paragraph*.146}
-\contentsline {subparagraph}{Touchpad, mouse or any pointer}{21}{subparagraph*.147}
-\contentsline {subparagraph}{Keypad or keyboard}{21}{subparagraph*.148}
-\contentsline {subparagraph}{Encoder}{22}{subparagraph*.149}
-\contentsline {subparagraph}{Button}{22}{subparagraph*.150}
-\contentsline {paragraph}{Other features}{23}{paragraph*.151}
-\contentsline {paragraph}{API}{23}{paragraph*.152}
-\contentsline {subsubsection}{Tick interface}{27}{subsubsection*.285}
-\contentsline {paragraph}{API}{27}{paragraph*.286}
-\contentsline {subsubsection}{Task Handler}{28}{subsubsection*.291}
-\contentsline {subsubsection}{Sleep management}{28}{subsubsection*.292}
-\contentsline {subsubsection}{Operating system and interrupts}{29}{subsubsection*.293}
-\contentsline {paragraph}{Tasks and threads}{29}{paragraph*.294}
-\contentsline {paragraph}{Interrupts}{29}{paragraph*.295}
-\contentsline {subsubsection}{Logging}{29}{subsubsection*.296}
-\contentsline {paragraph}{Log level}{29}{paragraph*.297}
-\contentsline {paragraph}{Logging with printf}{30}{paragraph*.298}
-\contentsline {paragraph}{Custom log function}{30}{paragraph*.299}
-\contentsline {paragraph}{Add logs}{30}{paragraph*.300}
-\contentsline {subsection}{\numberline {3.15.3}Overview}{30}{subsection.3.15.3}
-\contentsline {subsubsection}{Objects}{30}{subsubsection*.301}
-\contentsline {paragraph}{Object attributes}{31}{paragraph*.302}
-\contentsline {subparagraph}{Basic attributes}{31}{subparagraph*.303}
-\contentsline {subparagraph}{Specific attributes}{31}{subparagraph*.304}
-\contentsline {paragraph}{Object’s working mechanisms}{31}{paragraph*.305}
-\contentsline {subparagraph}{Parent-child structure}{31}{subparagraph*.306}
-\contentsline {subparagraph}{Moving together}{32}{subparagraph*.307}
-\contentsline {subparagraph}{Visibility only on the parent}{33}{subparagraph*.308}
-\contentsline {subparagraph}{Create - delete objects}{34}{subparagraph*.309}
-\contentsline {subparagraph}{Screen \textendash {} the most basic parent}{34}{subparagraph*.310}
-\contentsline {subsubsection}{Layers}{34}{subsubsection*.311}
-\contentsline {paragraph}{Order of creation}{34}{paragraph*.312}
-\contentsline {paragraph}{Bring to the foreground}{35}{paragraph*.313}
-\contentsline {paragraph}{Top and sys layer}{36}{paragraph*.314}
-\contentsline {subsubsection}{Events}{36}{subsubsection*.315}
-\contentsline {paragraph}{Event types}{37}{paragraph*.316}
-\contentsline {subparagraph}{Generic events}{37}{subparagraph*.317}
-\contentsline {subparagraph}{Input device related}{37}{subparagraph*.318}
-\contentsline {subparagraph}{Pointer related}{38}{subparagraph*.319}
-\contentsline {subparagraph}{Keypad and encoder related}{38}{subparagraph*.320}
-\contentsline {subparagraph}{General events}{38}{subparagraph*.321}
-\contentsline {subparagraph}{Special events}{38}{subparagraph*.322}
-\contentsline {paragraph}{Custom data}{38}{paragraph*.323}
-\contentsline {paragraph}{Send events manually}{39}{paragraph*.324}
-\contentsline {subsubsection}{Styles}{39}{subsubsection*.325}
-\contentsline {paragraph}{Use the styles}{39}{paragraph*.326}
-\contentsline {paragraph}{Inherit styles}{40}{paragraph*.327}
-\contentsline {paragraph}{Style properties}{40}{paragraph*.328}
-\contentsline {subparagraph}{Common properties}{40}{subparagraph*.329}
-\contentsline {subparagraph}{Body style properties}{40}{subparagraph*.330}
-\contentsline {subparagraph}{Text style properties}{41}{subparagraph*.331}
-\contentsline {subparagraph}{Image style properties}{41}{subparagraph*.332}
-\contentsline {subparagraph}{Line style properties}{42}{subparagraph*.333}
-\contentsline {paragraph}{Built-in styles}{42}{paragraph*.334}
-\contentsline {paragraph}{Create new styles}{42}{paragraph*.335}
-\contentsline {paragraph}{Style animations}{43}{paragraph*.336}
-\contentsline {paragraph}{Style example}{43}{paragraph*.337}
-\contentsline {paragraph}{Themes}{44}{paragraph*.338}
-\contentsline {subparagraph}{Live update}{45}{subparagraph*.339}
-\contentsline {subsubsection}{Input devices}{45}{subsubsection*.340}
-\contentsline {paragraph}{Pointers}{46}{paragraph*.341}
-\contentsline {paragraph}{Keypad and encoder}{46}{paragraph*.342}
-\contentsline {subparagraph}{Groups}{46}{subparagraph*.343}
-\contentsline {subparagraph}{Keys}{46}{subparagraph*.344}
-\contentsline {subparagraph}{Edit and navigate mode}{47}{subparagraph*.345}
-\contentsline {subparagraph}{Styling the focused object}{47}{subparagraph*.346}
-\contentsline {subparagraph}{Live demo}{48}{subparagraph*.347}
-\contentsline {paragraph}{API}{48}{paragraph*.348}
-\contentsline {subparagraph}{Input device}{48}{subparagraph*.349}
-\contentsline {subparagraph}{Groups}{50}{subparagraph*.384}
-\contentsline {subsubsection}{Displays}{55}{subsubsection*.511}
-\contentsline {paragraph}{Using only one display}{55}{paragraph*.512}
-\contentsline {paragraph}{Mirror display}{56}{paragraph*.513}
-\contentsline {paragraph}{Split image}{56}{paragraph*.514}
-\contentsline {paragraph}{Screens}{56}{paragraph*.515}
-\contentsline {subparagraph}{Opaque screen}{56}{subparagraph*.516}
-\contentsline {paragraph}{Features of displays}{57}{paragraph*.517}
-\contentsline {subparagraph}{Inactivity}{57}{subparagraph*.518}
-\contentsline {paragraph}{Colors}{57}{paragraph*.519}
-\contentsline {subparagraph}{Convert color}{57}{subparagraph*.520}
-\contentsline {subparagraph}{Swap 16 colors}{58}{subparagraph*.521}
-\contentsline {subparagraph}{Create and mix colors}{58}{subparagraph*.522}
-\contentsline {subparagraph}{Opacity}{58}{subparagraph*.523}
-\contentsline {subparagraph}{Built-in colors}{59}{subparagraph*.524}
-\contentsline {paragraph}{API}{59}{paragraph*.525}
-\contentsline {subparagraph}{Display}{59}{subparagraph*.526}
-\contentsline {subparagraph}{Colors}{61}{subparagraph*.551}
-\contentsline {subsubsection}{Fonts}{63}{subsubsection*.648}
-\contentsline {paragraph}{Unicode support}{63}{paragraph*.649}
-\contentsline {paragraph}{Built-in fonts}{63}{paragraph*.650}
-\contentsline {paragraph}{Add new font}{65}{paragraph*.651}
-\contentsline {paragraph}{Add new symbols}{65}{paragraph*.652}
-\contentsline {paragraph}{Add a new font engine}{65}{paragraph*.653}
-\contentsline {subsubsection}{Images}{66}{subsubsection*.654}
-\contentsline {paragraph}{Store images}{67}{paragraph*.655}
-\contentsline {subparagraph}{Variables}{67}{subparagraph*.656}
-\contentsline {subparagraph}{Files}{67}{subparagraph*.657}
-\contentsline {paragraph}{Color formats}{67}{paragraph*.658}
-\contentsline {paragraph}{Add and use images}{68}{paragraph*.659}
-\contentsline {subparagraph}{Online converter}{68}{subparagraph*.660}
-\contentsline {subparagraph}{Manually create an image}{68}{subparagraph*.661}
-\contentsline {subparagraph}{Use images}{69}{subparagraph*.662}
-\contentsline {paragraph}{Image decoder}{69}{paragraph*.663}
-\contentsline {subparagraph}{Custom image formats}{70}{subparagraph*.664}
-\contentsline {subparagraph}{Register an image decoder}{70}{subparagraph*.665}
-\contentsline {subparagraph}{Manually use an image decoder}{72}{subparagraph*.666}
-\contentsline {paragraph}{Image caching}{72}{paragraph*.667}
-\contentsline {subparagraph}{Cache size}{72}{subparagraph*.668}
-\contentsline {subparagraph}{Value of images}{73}{subparagraph*.669}
-\contentsline {subparagraph}{Memory usage}{73}{subparagraph*.670}
-\contentsline {subparagraph}{Clean the cache}{73}{subparagraph*.671}
-\contentsline {paragraph}{API}{73}{paragraph*.672}
-\contentsline {subparagraph}{Image decoder}{73}{subparagraph*.673}
-\contentsline {subparagraph}{Image cache}{78}{subparagraph*.810}
-\contentsline {subsubsection}{File system}{79}{subsubsection*.823}
-\contentsline {paragraph}{Add a driver}{79}{paragraph*.824}
-\contentsline {subparagraph}{Use drivers for images}{80}{subparagraph*.825}
-\contentsline {paragraph}{API}{80}{paragraph*.826}
-\contentsline {subsubsection}{Animations}{85}{subsubsection*.978}
-\contentsline {paragraph}{Create an animation}{86}{paragraph*.979}
-\contentsline {paragraph}{Animation path}{86}{paragraph*.980}
-\contentsline {paragraph}{Speed vs time}{86}{paragraph*.981}
-\contentsline {paragraph}{Delete animations}{87}{paragraph*.982}
-\contentsline {paragraph}{API}{87}{paragraph*.983}
-\contentsline {subparagraph}{Input device}{87}{subparagraph*.984}
-\contentsline {subsubsection}{Tasks}{92}{subsubsection*.1095}
-\contentsline {paragraph}{Create a task}{92}{paragraph*.1096}
-\contentsline {paragraph}{Ready and Reset}{93}{paragraph*.1097}
-\contentsline {paragraph}{Set parameters}{93}{paragraph*.1098}
-\contentsline {paragraph}{One-shot tasks}{93}{paragraph*.1099}
-\contentsline {paragraph}{Measure idle time}{93}{paragraph*.1100}
-\contentsline {paragraph}{Asynchronous calls}{93}{paragraph*.1101}
-\contentsline {paragraph}{API}{94}{paragraph*.1102}
-\contentsline {subsubsection}{Drawing}{96}{subsubsection*.1164}
-\contentsline {paragraph}{Buffering types}{96}{paragraph*.1165}
-\contentsline {paragraph}{Mechanism of screen refreshing}{97}{paragraph*.1166}
-\contentsline {subsection}{\numberline {3.15.4}Object types (Widgets)}{97}{subsection.3.15.4}
-\contentsline {subsubsection}{Base object (lv\_obj)}{97}{subsubsection*.1167}
-\contentsline {paragraph}{Overview}{98}{paragraph*.1168}
-\contentsline {subparagraph}{Coordinates}{98}{subparagraph*.1169}
-\contentsline {subparagraph}{Parents and children}{99}{subparagraph*.1170}
-\contentsline {subparagraph}{Screens}{99}{subparagraph*.1171}
-\contentsline {subparagraph}{Layers}{99}{subparagraph*.1172}
-\contentsline {subparagraph}{Style}{100}{subparagraph*.1173}
-\contentsline {subparagraph}{Events}{100}{subparagraph*.1174}
-\contentsline {subparagraph}{Attributes}{100}{subparagraph*.1175}
-\contentsline {subparagraph}{Opa scale}{101}{subparagraph*.1176}
-\contentsline {subparagraph}{Protect}{101}{subparagraph*.1177}
-\contentsline {subparagraph}{Groups}{101}{subparagraph*.1178}
-\contentsline {subparagraph}{Extended click area}{101}{subparagraph*.1179}
-\contentsline {paragraph}{Styles}{102}{paragraph*.1180}
-\contentsline {paragraph}{Events}{102}{paragraph*.1181}
-\contentsline {paragraph}{Keys}{102}{paragraph*.1182}
-\contentsline {paragraph}{Example}{102}{paragraph*.1183}
-\contentsline {subparagraph}{C}{102}{subparagraph*.1184}
-\contentsline {subparagraph}{MicroPython}{103}{subparagraph*.1185}
-\contentsline {paragraph}{API}{103}{paragraph*.1186}
-\contentsline {subsubsection}{Arc (lv\_arc)}{120}{subsubsection*.1616}
-\contentsline {paragraph}{Overview}{120}{paragraph*.1617}
-\contentsline {subparagraph}{Angles}{121}{subparagraph*.1618}
-\contentsline {subparagraph}{Notes}{121}{subparagraph*.1619}
-\contentsline {paragraph}{Styles}{121}{paragraph*.1620}
-\contentsline {paragraph}{Events}{121}{paragraph*.1621}
-\contentsline {paragraph}{Keys}{121}{paragraph*.1622}
-\contentsline {paragraph}{Example}{121}{paragraph*.1623}
-\contentsline {subparagraph}{C}{122}{subparagraph*.1624}
-\contentsline {subparagraph}{MicroPython}{122}{subparagraph*.1625}
-\contentsline {paragraph}{API}{122}{paragraph*.1626}
-\contentsline {subsubsection}{Bar (lv\_bar)}{124}{subsubsection*.1651}
-\contentsline {paragraph}{Overview}{124}{paragraph*.1652}
-\contentsline {subparagraph}{Value and range}{124}{subparagraph*.1653}
-\contentsline {subparagraph}{Symmetrical}{124}{subparagraph*.1654}
-\contentsline {paragraph}{Styles}{124}{paragraph*.1655}
-\contentsline {paragraph}{Events}{125}{paragraph*.1656}
-\contentsline {paragraph}{Keys}{125}{paragraph*.1657}
-\contentsline {paragraph}{Example}{125}{paragraph*.1658}
-\contentsline {subparagraph}{C}{125}{subparagraph*.1659}
-\contentsline {subparagraph}{MicroPython}{126}{subparagraph*.1660}
-\contentsline {paragraph}{API}{126}{paragraph*.1661}
-\contentsline {subsubsection}{Button (lv\_btn)}{129}{subsubsection*.1714}
-\contentsline {paragraph}{Overview}{129}{paragraph*.1715}
-\contentsline {subparagraph}{States}{129}{subparagraph*.1716}
-\contentsline {subparagraph}{Toggle}{129}{subparagraph*.1717}
-\contentsline {subparagraph}{Layout and Fit}{129}{subparagraph*.1718}
-\contentsline {subparagraph}{Ink effect}{129}{subparagraph*.1719}
-\contentsline {paragraph}{Styles}{130}{paragraph*.1720}
-\contentsline {paragraph}{Events}{130}{paragraph*.1721}
-\contentsline {paragraph}{Keys}{130}{paragraph*.1722}
-\contentsline {paragraph}{Example}{131}{paragraph*.1723}
-\contentsline {subparagraph}{C}{131}{subparagraph*.1724}
-\contentsline {subparagraph}{MicroPython}{132}{subparagraph*.1725}
-\contentsline {paragraph}{API}{132}{paragraph*.1726}
-\contentsline {subsubsection}{Button matrix (lv\_btnm)}{136}{subsubsection*.1819}
-\contentsline {paragraph}{Overview}{136}{paragraph*.1820}
-\contentsline {subparagraph}{Button’s text}{136}{subparagraph*.1821}
-\contentsline {subparagraph}{Control buttons}{137}{subparagraph*.1822}
-\contentsline {subparagraph}{One toggle}{137}{subparagraph*.1823}
-\contentsline {subparagraph}{Recolor}{137}{subparagraph*.1824}
-\contentsline {subparagraph}{Notes}{137}{subparagraph*.1825}
-\contentsline {paragraph}{Styles}{138}{paragraph*.1826}
-\contentsline {paragraph}{Events}{138}{paragraph*.1827}
-\contentsline {paragraph}{Example}{138}{paragraph*.1828}
-\contentsline {subparagraph}{C}{139}{subparagraph*.1829}
-\contentsline {subparagraph}{MicroPython}{139}{subparagraph*.1830}
-\contentsline {paragraph}{API}{140}{paragraph*.1831}
-\contentsline {subsubsection}{Calendar (lv\_calendar)}{144}{subsubsection*.1926}
-\contentsline {paragraph}{Overview}{144}{paragraph*.1927}
-\contentsline {subparagraph}{Current date}{144}{subparagraph*.1928}
-\contentsline {subparagraph}{Shown date}{144}{subparagraph*.1929}
-\contentsline {subparagraph}{Highlighted days}{145}{subparagraph*.1930}
-\contentsline {subparagraph}{Name of the days}{145}{subparagraph*.1931}
-\contentsline {subparagraph}{Name of the months}{145}{subparagraph*.1932}
-\contentsline {paragraph}{Styles}{145}{paragraph*.1933}
-\contentsline {paragraph}{Events}{145}{paragraph*.1934}
-\contentsline {paragraph}{Keys}{146}{paragraph*.1935}
-\contentsline {paragraph}{Example}{146}{paragraph*.1936}
-\contentsline {subparagraph}{C}{146}{subparagraph*.1937}
-\contentsline {subparagraph}{MicroPython}{147}{subparagraph*.1938}
-\contentsline {paragraph}{API}{147}{paragraph*.1939}
-\contentsline {subsubsection}{Canvas (lv\_canvas)}{151}{subsubsection*.2030}
-\contentsline {paragraph}{Overview}{151}{paragraph*.2031}
-\contentsline {subparagraph}{Buffer}{151}{subparagraph*.2032}
-\contentsline {subparagraph}{Palette}{151}{subparagraph*.2033}
-\contentsline {subparagraph}{Drawing}{151}{subparagraph*.2034}
-\contentsline {subparagraph}{Rotate}{152}{subparagraph*.2035}
-\contentsline {paragraph}{Styles}{152}{paragraph*.2036}
-\contentsline {paragraph}{Events}{152}{paragraph*.2037}
-\contentsline {paragraph}{Keys}{152}{paragraph*.2038}
-\contentsline {paragraph}{Example}{152}{paragraph*.2039}
-\contentsline {subparagraph}{C}{152}{subparagraph*.2040}
-\contentsline {subparagraph}{MicroPython}{153}{subparagraph*.2041}
-\contentsline {paragraph}{API}{154}{paragraph*.2042}
-\contentsline {subsubsection}{Check box (lv\_cb)}{158}{subsubsection*.2089}
-\contentsline {paragraph}{Overview}{158}{paragraph*.2090}
-\contentsline {subparagraph}{Text}{158}{subparagraph*.2091}
-\contentsline {subparagraph}{Check/Uncheck}{158}{subparagraph*.2092}
-\contentsline {subparagraph}{Inactive}{158}{subparagraph*.2093}
-\contentsline {paragraph}{Styles}{158}{paragraph*.2094}
-\contentsline {paragraph}{Events}{159}{paragraph*.2095}
-\contentsline {paragraph}{Keys}{159}{paragraph*.2096}
-\contentsline {paragraph}{Example}{159}{paragraph*.2097}
-\contentsline {subparagraph}{C}{159}{subparagraph*.2098}
-\contentsline {subparagraph}{MicroPython}{160}{subparagraph*.2099}
-\contentsline {paragraph}{API}{160}{paragraph*.2100}
-\contentsline {subsubsection}{Chart (lv\_chart)}{162}{subsubsection*.2145}
-\contentsline {paragraph}{Overview}{162}{paragraph*.2146}
-\contentsline {subparagraph}{Data series}{162}{subparagraph*.2147}
-\contentsline {subparagraph}{Series’ type}{162}{subparagraph*.2148}
-\contentsline {subparagraph}{Modify the data}{163}{subparagraph*.2149}
-\contentsline {subparagraph}{Update modes}{163}{subparagraph*.2150}
-\contentsline {subparagraph}{Number of points}{163}{subparagraph*.2151}
-\contentsline {subparagraph}{Vertical range}{163}{subparagraph*.2152}
-\contentsline {subparagraph}{Division lines}{163}{subparagraph*.2153}
-\contentsline {subparagraph}{Series’ appearance}{164}{subparagraph*.2154}
-\contentsline {subparagraph}{Tick marks and labels}{164}{subparagraph*.2155}
-\contentsline {paragraph}{Styles}{164}{paragraph*.2156}
-\contentsline {paragraph}{Events}{164}{paragraph*.2157}
-\contentsline {paragraph}{Keys}{164}{paragraph*.2158}
-\contentsline {paragraph}{Example}{165}{paragraph*.2159}
-\contentsline {subparagraph}{C}{165}{subparagraph*.2160}
-\contentsline {subparagraph}{MicroPython}{166}{subparagraph*.2161}
-\contentsline {paragraph}{API}{166}{paragraph*.2162}
-\contentsline {subsubsection}{Container (lv\_cont)}{172}{subsubsection*.2311}
-\contentsline {paragraph}{Overview}{172}{paragraph*.2312}
-\contentsline {subparagraph}{Layout}{173}{subparagraph*.2313}
-\contentsline {subparagraph}{Auto fit}{173}{subparagraph*.2314}
-\contentsline {paragraph}{Styles}{173}{paragraph*.2315}
-\contentsline {paragraph}{Events}{174}{paragraph*.2316}
-\contentsline {paragraph}{Keys}{174}{paragraph*.2317}
-\contentsline {paragraph}{Example}{174}{paragraph*.2318}
-\contentsline {subparagraph}{C}{174}{subparagraph*.2319}
-\contentsline {subparagraph}{MicroPython}{175}{subparagraph*.2320}
-\contentsline {paragraph}{API}{175}{paragraph*.2321}
-\contentsline {subsubsection}{Drop down list (lv\_ddlist)}{178}{subsubsection*.2404}
-\contentsline {paragraph}{Overview}{178}{paragraph*.2405}
-\contentsline {subparagraph}{Set options}{178}{subparagraph*.2406}
-\contentsline {subparagraph}{Get selected option}{179}{subparagraph*.2407}
-\contentsline {subparagraph}{Align the options}{179}{subparagraph*.2408}
-\contentsline {subparagraph}{Height and width}{179}{subparagraph*.2409}
-\contentsline {subparagraph}{Scrollbars}{179}{subparagraph*.2410}
-\contentsline {subparagraph}{Animation time}{179}{subparagraph*.2411}
-\contentsline {subparagraph}{Decoration arrow}{179}{subparagraph*.2412}
-\contentsline {subparagraph}{Stay open}{179}{subparagraph*.2413}
-\contentsline {paragraph}{Styles}{179}{paragraph*.2414}
-\contentsline {paragraph}{Events}{180}{paragraph*.2415}
-\contentsline {paragraph}{Keys}{180}{paragraph*.2416}
-\contentsline {paragraph}{Example}{180}{paragraph*.2417}
-\contentsline {subparagraph}{C}{180}{subparagraph*.2418}
-\contentsline {subparagraph}{MicroPython}{181}{subparagraph*.2419}
-\contentsline {paragraph}{API}{181}{paragraph*.2420}
-\contentsline {subsubsection}{Gauge (lv\_gauge)}{185}{subsubsection*.2501}
-\contentsline {paragraph}{Overview}{185}{paragraph*.2502}
-\contentsline {subparagraph}{Scale}{185}{subparagraph*.2503}
-\contentsline {subparagraph}{Needles}{185}{subparagraph*.2504}
-\contentsline {subparagraph}{Range}{185}{subparagraph*.2505}
-\contentsline {subparagraph}{Critical value}{186}{subparagraph*.2506}
-\contentsline {paragraph}{Styles}{186}{paragraph*.2507}
-\contentsline {paragraph}{Events}{186}{paragraph*.2508}
-\contentsline {paragraph}{Keys}{186}{paragraph*.2509}
-\contentsline {paragraph}{Example}{186}{paragraph*.2510}
-\contentsline {subparagraph}{C}{187}{subparagraph*.2511}
-\contentsline {subparagraph}{MicroPython}{188}{subparagraph*.2512}
-\contentsline {paragraph}{API}{188}{paragraph*.2513}
-\contentsline {subsubsection}{Image (lv\_img)}{191}{subsubsection*.2564}
-\contentsline {paragraph}{Overview}{191}{paragraph*.2565}
-\contentsline {subparagraph}{Image source}{191}{subparagraph*.2566}
-\contentsline {subparagraph}{Label as an image}{191}{subparagraph*.2567}
-\contentsline {subparagraph}{Transparency}{191}{subparagraph*.2568}
-\contentsline {subparagraph}{Palette and Alpha index}{192}{subparagraph*.2569}
-\contentsline {subparagraph}{Recolor}{192}{subparagraph*.2570}
-\contentsline {subparagraph}{Auto-size}{192}{subparagraph*.2571}
-\contentsline {subparagraph}{Mosaic}{192}{subparagraph*.2572}
-\contentsline {subparagraph}{Offset}{192}{subparagraph*.2573}
-\contentsline {paragraph}{Styles}{192}{paragraph*.2574}
-\contentsline {paragraph}{Events}{193}{paragraph*.2575}
-\contentsline {paragraph}{Keys}{193}{paragraph*.2576}
-\contentsline {paragraph}{Example}{193}{paragraph*.2577}
-\contentsline {subparagraph}{C}{193}{subparagraph*.2578}
-\contentsline {subparagraph}{MicroPython}{194}{subparagraph*.2579}
-\contentsline {paragraph}{API}{194}{paragraph*.2580}
-\contentsline {subsubsection}{Image button (lv\_imgbtn)}{196}{subsubsection*.2627}
-\contentsline {paragraph}{Overview}{196}{paragraph*.2628}
-\contentsline {subparagraph}{Image sources}{196}{subparagraph*.2629}
-\contentsline {subparagraph}{States}{197}{subparagraph*.2630}
-\contentsline {subparagraph}{Toggle}{197}{subparagraph*.2631}
-\contentsline {paragraph}{Style usage}{197}{paragraph*.2632}
-\contentsline {paragraph}{Events}{197}{paragraph*.2633}
-\contentsline {paragraph}{Keys}{197}{paragraph*.2634}
-\contentsline {paragraph}{Example}{198}{paragraph*.2635}
-\contentsline {subparagraph}{C}{198}{subparagraph*.2636}
-\contentsline {subparagraph}{MicroPython}{199}{subparagraph*.2637}
-\contentsline {paragraph}{API}{199}{paragraph*.2638}
-\contentsline {subsubsection}{Keyboard (lv\_kb)}{202}{subsubsection*.2695}
-\contentsline {paragraph}{Overview}{202}{paragraph*.2696}
-\contentsline {subparagraph}{Modes}{202}{subparagraph*.2697}
-\contentsline {subparagraph}{Assign Text area}{202}{subparagraph*.2698}
-\contentsline {subparagraph}{New key map}{202}{subparagraph*.2699}
-\contentsline {paragraph}{Styles}{202}{paragraph*.2700}
-\contentsline {paragraph}{Events}{203}{paragraph*.2701}
-\contentsline {paragraph}{Keys}{203}{paragraph*.2702}
-\contentsline {paragraph}{Examples}{203}{paragraph*.2703}
-\contentsline {subparagraph}{C}{204}{subparagraph*.2704}
-\contentsline {subparagraph}{MicroPython}{205}{subparagraph*.2705}
-\contentsline {paragraph}{API}{205}{paragraph*.2706}
-\contentsline {subsubsection}{Label (lv\_label)}{207}{subsubsection*.2767}
-\contentsline {paragraph}{Overview}{207}{paragraph*.2768}
-\contentsline {subparagraph}{Set text}{208}{subparagraph*.2769}
-\contentsline {subparagraph}{Line break}{208}{subparagraph*.2770}
-\contentsline {subparagraph}{Long modes}{208}{subparagraph*.2771}
-\contentsline {subparagraph}{Text align}{208}{subparagraph*.2772}
-\contentsline {subparagraph}{Draw background}{208}{subparagraph*.2773}
-\contentsline {subparagraph}{Text recolor}{209}{subparagraph*.2774}
-\contentsline {subparagraph}{Very long texts}{209}{subparagraph*.2775}
-\contentsline {subparagraph}{Symbols}{209}{subparagraph*.2776}
-\contentsline {paragraph}{Styles}{209}{paragraph*.2777}
-\contentsline {paragraph}{Events}{209}{paragraph*.2778}
-\contentsline {paragraph}{Keys}{209}{paragraph*.2779}
-\contentsline {paragraph}{Example}{209}{paragraph*.2780}
-\contentsline {subparagraph}{C}{210}{subparagraph*.2781}
-\contentsline {subparagraph}{MicroPython}{210}{subparagraph*.2782}
-\contentsline {paragraph}{API}{210}{paragraph*.2783}
-\contentsline {subsubsection}{LED (lv\_led)}{216}{subsubsection*.2904}
-\contentsline {paragraph}{Overview}{216}{paragraph*.2905}
-\contentsline {subparagraph}{Brightness}{216}{subparagraph*.2906}
-\contentsline {subparagraph}{Toggle}{216}{subparagraph*.2907}
-\contentsline {paragraph}{Styles}{216}{paragraph*.2908}
-\contentsline {paragraph}{Events}{216}{paragraph*.2909}
-\contentsline {paragraph}{Keys}{217}{paragraph*.2910}
-\contentsline {paragraph}{Example}{217}{paragraph*.2911}
-\contentsline {subparagraph}{C}{217}{subparagraph*.2912}
-\contentsline {subparagraph}{MicroPython}{218}{subparagraph*.2913}
-\contentsline {paragraph}{API}{218}{paragraph*.2914}
-\contentsline {subsubsection}{Line (lv\_line)}{219}{subsubsection*.2941}
-\contentsline {paragraph}{Overview}{219}{paragraph*.2942}
-\contentsline {subparagraph}{Set points}{220}{subparagraph*.2943}
-\contentsline {subparagraph}{Auto-size}{220}{subparagraph*.2944}
-\contentsline {subparagraph}{Invert y}{220}{subparagraph*.2945}
-\contentsline {paragraph}{Styles}{220}{paragraph*.2946}
-\contentsline {paragraph}{Events}{220}{paragraph*.2947}
-\contentsline {paragraph}{Keys}{220}{paragraph*.2948}
-\contentsline {paragraph}{Example}{220}{paragraph*.2949}
-\contentsline {subparagraph}{C}{221}{subparagraph*.2950}
-\contentsline {subparagraph}{MicroPython}{221}{subparagraph*.2951}
-\contentsline {paragraph}{API}{221}{paragraph*.2952}
-\contentsline {subsubsection}{List (lv\_list)}{223}{subsubsection*.2985}
-\contentsline {paragraph}{Overview}{223}{paragraph*.2986}
-\contentsline {subparagraph}{Add buttons}{223}{subparagraph*.2987}
-\contentsline {subparagraph}{Delete buttons}{224}{subparagraph*.2988}
-\contentsline {subparagraph}{Manual navigation}{224}{subparagraph*.2989}
-\contentsline {subparagraph}{Edge flash}{224}{subparagraph*.2990}
-\contentsline {subparagraph}{Scroll propagation}{224}{subparagraph*.2991}
-\contentsline {paragraph}{Style usage}{224}{paragraph*.2992}
-\contentsline {paragraph}{Events}{225}{paragraph*.2993}
-\contentsline {paragraph}{Keys}{225}{paragraph*.2994}
-\contentsline {paragraph}{Example}{225}{paragraph*.2995}
-\contentsline {subparagraph}{C}{226}{subparagraph*.2996}
-\contentsline {subparagraph}{MicroPython}{227}{subparagraph*.2997}
-\contentsline {paragraph}{API}{227}{paragraph*.2998}
-\contentsline {subsubsection}{Line meter (lv\_lmeter)}{232}{subsubsection*.3093}
-\contentsline {paragraph}{Overview}{232}{paragraph*.3094}
-\contentsline {subparagraph}{Set value}{232}{subparagraph*.3095}
-\contentsline {subparagraph}{Range and Angles}{232}{subparagraph*.3096}
-\contentsline {paragraph}{Styles}{232}{paragraph*.3097}
-\contentsline {paragraph}{Events}{232}{paragraph*.3098}
-\contentsline {paragraph}{Keys}{232}{paragraph*.3099}
-\contentsline {paragraph}{Example}{233}{paragraph*.3100}
-\contentsline {subparagraph}{C}{233}{subparagraph*.3101}
-\contentsline {subparagraph}{MicroPython}{234}{subparagraph*.3102}
-\contentsline {paragraph}{API}{234}{paragraph*.3103}
-\contentsline {subsubsection}{Message box (lv\_mbox)}{236}{subsubsection*.3144}
-\contentsline {paragraph}{Overview}{236}{paragraph*.3145}
-\contentsline {subparagraph}{Set text}{236}{subparagraph*.3146}
-\contentsline {subparagraph}{Add buttons}{236}{subparagraph*.3147}
-\contentsline {subparagraph}{Auto-close}{236}{subparagraph*.3148}
-\contentsline {paragraph}{Styles}{236}{paragraph*.3149}
-\contentsline {paragraph}{Events}{237}{paragraph*.3150}
-\contentsline {paragraph}{Example}{237}{paragraph*.3151}
-\contentsline {subparagraph}{C}{237}{subparagraph*.3152}
-\contentsline {subparagraph}{MicroPython}{240}{subparagraph*.3153}
-\contentsline {paragraph}{API}{241}{paragraph*.3154}
-\contentsline {subsubsection}{Page (lv\_page)}{243}{subsubsection*.3213}
-\contentsline {paragraph}{Overview}{243}{paragraph*.3214}
-\contentsline {subparagraph}{Scrollbars}{244}{subparagraph*.3215}
-\contentsline {subparagraph}{Glue object}{244}{subparagraph*.3216}
-\contentsline {subparagraph}{Focus object}{244}{subparagraph*.3217}
-\contentsline {subparagraph}{Manual navigation}{244}{subparagraph*.3218}
-\contentsline {subparagraph}{Edge flash}{244}{subparagraph*.3219}
-\contentsline {subparagraph}{Scroll propagation}{244}{subparagraph*.3220}
-\contentsline {subparagraph}{Scrollable API}{245}{subparagraph*.3221}
-\contentsline {subparagraph}{Notes}{245}{subparagraph*.3222}
-\contentsline {paragraph}{Styles}{245}{paragraph*.3223}
-\contentsline {paragraph}{Events}{245}{paragraph*.3224}
-\contentsline {paragraph}{Example}{246}{paragraph*.3225}
-\contentsline {subparagraph}{C}{246}{subparagraph*.3226}
-\contentsline {subparagraph}{MicroPython}{247}{subparagraph*.3227}
-\contentsline {paragraph}{API}{247}{paragraph*.3228}
-\contentsline {subsubsection}{Preloader (lv\_preload)}{253}{subsubsection*.3377}
-\contentsline {paragraph}{Overview}{253}{paragraph*.3378}
-\contentsline {subparagraph}{Arc length}{253}{subparagraph*.3379}
-\contentsline {subparagraph}{Spinning speed}{253}{subparagraph*.3380}
-\contentsline {subparagraph}{Spin types}{254}{subparagraph*.3381}
-\contentsline {subparagraph}{Spin direction}{254}{subparagraph*.3382}
-\contentsline {paragraph}{Styles}{254}{paragraph*.3383}
-\contentsline {paragraph}{Events}{254}{paragraph*.3384}
-\contentsline {paragraph}{Keys}{254}{paragraph*.3385}
-\contentsline {paragraph}{Example}{254}{paragraph*.3386}
-\contentsline {subparagraph}{C}{255}{subparagraph*.3387}
-\contentsline {subparagraph}{MicroPython}{255}{subparagraph*.3388}
-\contentsline {subparagraph}{MicroPython}{256}{subparagraph*.3389}
-\contentsline {paragraph}{API}{256}{paragraph*.3390}
-\contentsline {subsubsection}{Roller (lv\_roller)}{258}{subsubsection*.3449}
-\contentsline {paragraph}{Overview}{258}{paragraph*.3450}
-\contentsline {subparagraph}{Set options}{258}{subparagraph*.3451}
-\contentsline {subparagraph}{Get selected option}{259}{subparagraph*.3452}
-\contentsline {subparagraph}{Align the options}{259}{subparagraph*.3453}
-\contentsline {subparagraph}{Height and width}{259}{subparagraph*.3454}
-\contentsline {subparagraph}{Animation time}{259}{subparagraph*.3455}
-\contentsline {paragraph}{Styles}{259}{paragraph*.3456}
-\contentsline {paragraph}{Events}{259}{paragraph*.3457}
-\contentsline {paragraph}{Keys}{259}{paragraph*.3458}
-\contentsline {paragraph}{Example}{260}{paragraph*.3459}
-\contentsline {subparagraph}{C}{260}{subparagraph*.3460}
-\contentsline {subparagraph}{MicroPython}{261}{subparagraph*.3461}
-\contentsline {paragraph}{API}{261}{paragraph*.3462}
-\contentsline {subsubsection}{Slider (lv\_slider)}{264}{subsubsection*.3515}
-\contentsline {paragraph}{Overview}{264}{paragraph*.3516}
-\contentsline {paragraph}{Value and range}{264}{paragraph*.3517}
-\contentsline {subparagraph}{Knob placement}{264}{subparagraph*.3518}
-\contentsline {paragraph}{Styles}{264}{paragraph*.3519}
-\contentsline {paragraph}{Events}{264}{paragraph*.3520}
-\contentsline {paragraph}{Keys}{265}{paragraph*.3521}
-\contentsline {paragraph}{Example}{265}{paragraph*.3522}
-\contentsline {subparagraph}{C}{265}{subparagraph*.3523}
-\contentsline {subparagraph}{MicroPython}{268}{subparagraph*.3524}
-\contentsline {paragraph}{API}{268}{paragraph*.3525}
-\contentsline {subsubsection}{Spinbox (lv\_spinbox)}{270}{subsubsection*.3570}
-\contentsline {paragraph}{Overview}{270}{paragraph*.3571}
-\contentsline {subparagraph}{Set format}{271}{subparagraph*.3572}
-\contentsline {subparagraph}{Value and ranges}{271}{subparagraph*.3573}
-\contentsline {paragraph}{Style usage}{271}{paragraph*.3574}
-\contentsline {paragraph}{Events}{271}{paragraph*.3575}
-\contentsline {paragraph}{Keys}{271}{paragraph*.3576}
-\contentsline {paragraph}{Example}{272}{paragraph*.3577}
-\contentsline {subparagraph}{C}{272}{subparagraph*.3578}
-\contentsline {subparagraph}{MicroPython}{273}{subparagraph*.3579}
-\contentsline {paragraph}{API}{273}{paragraph*.3580}
-\contentsline {paragraph}{Example}{275}{paragraph*.3635}
-\contentsline {subsubsection}{Switch (lv\_sw)}{275}{subsubsection*.3636}
-\contentsline {paragraph}{Overview}{275}{paragraph*.3637}
-\contentsline {subparagraph}{Change state}{275}{subparagraph*.3638}
-\contentsline {subparagraph}{Animation time}{275}{subparagraph*.3639}
-\contentsline {paragraph}{Styles}{276}{paragraph*.3640}
-\contentsline {paragraph}{Events}{276}{paragraph*.3641}
-\contentsline {paragraph}{Keys}{276}{paragraph*.3642}
-\contentsline {paragraph}{Example}{276}{paragraph*.3643}
-\contentsline {subparagraph}{C}{277}{subparagraph*.3644}
-\contentsline {subparagraph}{MicroPython}{278}{subparagraph*.3645}
-\contentsline {paragraph}{API}{278}{paragraph*.3646}
-\contentsline {subsubsection}{Table (lv\_table)}{280}{subsubsection*.3693}
-\contentsline {paragraph}{Overview}{280}{paragraph*.3694}
-\contentsline {subparagraph}{Rows and Columns}{281}{subparagraph*.3695}
-\contentsline {subparagraph}{Width and Height}{281}{subparagraph*.3696}
-\contentsline {subparagraph}{Set cell value}{281}{subparagraph*.3697}
-\contentsline {subparagraph}{Align}{281}{subparagraph*.3698}
-\contentsline {subparagraph}{Cell type}{281}{subparagraph*.3699}
-\contentsline {subparagraph}{Merge cells}{281}{subparagraph*.3700}
-\contentsline {subparagraph}{Crop text}{282}{subparagraph*.3701}
-\contentsline {subparagraph}{Scroll}{282}{subparagraph*.3702}
-\contentsline {paragraph}{Styles}{282}{paragraph*.3703}
-\contentsline {paragraph}{Events}{282}{paragraph*.3704}
-\contentsline {paragraph}{Keys}{282}{paragraph*.3705}
-\contentsline {paragraph}{Example}{282}{paragraph*.3706}
-\contentsline {subparagraph}{C}{283}{subparagraph*.3707}
-\contentsline {subparagraph}{MicroPython}{284}{subparagraph*.3708}
-\contentsline {subparagraph}{MicroPython}{284}{subparagraph*.3709}
-\contentsline {paragraph}{API}{284}{paragraph*.3710}
-\contentsline {subsubsection}{Tabview (lv\_tabview)}{288}{subsubsection*.3789}
-\contentsline {paragraph}{Overview}{288}{paragraph*.3790}
-\contentsline {subparagraph}{Adding tab}{288}{subparagraph*.3791}
-\contentsline {subparagraph}{Change tab}{289}{subparagraph*.3792}
-\contentsline {subparagraph}{Tab button’s position}{289}{subparagraph*.3793}
-\contentsline {subparagraph}{Hide the tabs}{289}{subparagraph*.3794}
-\contentsline {subparagraph}{Animation time}{289}{subparagraph*.3795}
-\contentsline {paragraph}{Style usage}{289}{paragraph*.3796}
-\contentsline {paragraph}{Events}{290}{paragraph*.3797}
-\contentsline {paragraph}{Keys}{290}{paragraph*.3798}
-\contentsline {paragraph}{Example}{290}{paragraph*.3799}
-\contentsline {subparagraph}{C}{290}{subparagraph*.3800}
-\contentsline {subparagraph}{MicroPython}{291}{subparagraph*.3801}
-\contentsline {paragraph}{API}{291}{paragraph*.3802}
-\contentsline {subsubsection}{Text area (lv\_ta)}{295}{subsubsection*.3897}
-\contentsline {paragraph}{Overview}{295}{paragraph*.3898}
-\contentsline {subparagraph}{Add text}{295}{subparagraph*.3899}
-\contentsline {subparagraph}{Placeholder}{295}{subparagraph*.3900}
-\contentsline {subparagraph}{Delete character}{295}{subparagraph*.3901}
-\contentsline {subparagraph}{Move the cursor}{295}{subparagraph*.3902}
-\contentsline {subparagraph}{Cursor types}{296}{subparagraph*.3903}
-\contentsline {subparagraph}{One line mode}{296}{subparagraph*.3904}
-\contentsline {subparagraph}{Password mode}{296}{subparagraph*.3905}
-\contentsline {subparagraph}{Text align}{296}{subparagraph*.3906}
-\contentsline {subparagraph}{Accepted characters}{296}{subparagraph*.3907}
-\contentsline {subparagraph}{Max text length}{296}{subparagraph*.3908}
-\contentsline {subparagraph}{Very long texts}{297}{subparagraph*.3909}
-\contentsline {subparagraph}{Select text}{297}{subparagraph*.3910}
-\contentsline {subparagraph}{Scrollbars}{297}{subparagraph*.3911}
-\contentsline {subparagraph}{Scroll propagation}{297}{subparagraph*.3912}
-\contentsline {subparagraph}{Edge flash}{297}{subparagraph*.3913}
-\contentsline {paragraph}{Style usage}{297}{paragraph*.3914}
-\contentsline {paragraph}{Events}{298}{paragraph*.3915}
-\contentsline {paragraph}{Keys}{298}{paragraph*.3916}
-\contentsline {paragraph}{Example}{298}{paragraph*.3917}
-\contentsline {subparagraph}{C}{298}{subparagraph*.3918}
-\contentsline {subparagraph}{MicroPython}{299}{subparagraph*.3919}
-\contentsline {paragraph}{API}{299}{paragraph*.3920}
-\contentsline {subsubsection}{Tile view (lv\_tileview)}{307}{subsubsection*.4091}
-\contentsline {paragraph}{Overview}{307}{paragraph*.4092}
-\contentsline {subparagraph}{Valid positions}{307}{subparagraph*.4093}
-\contentsline {subparagraph}{Add element}{307}{subparagraph*.4094}
-\contentsline {subparagraph}{Set tile}{308}{subparagraph*.4095}
-\contentsline {subparagraph}{Animation time}{308}{subparagraph*.4096}
-\contentsline {subparagraph}{Edge flash}{308}{subparagraph*.4097}
-\contentsline {paragraph}{Styles}{308}{paragraph*.4098}
-\contentsline {paragraph}{Events}{308}{paragraph*.4099}
-\contentsline {paragraph}{Keys}{309}{paragraph*.4100}
-\contentsline {paragraph}{Example}{309}{paragraph*.4101}
-\contentsline {subparagraph}{C}{309}{subparagraph*.4102}
-\contentsline {subparagraph}{MicroPython}{310}{subparagraph*.4103}
-\contentsline {paragraph}{API}{310}{paragraph*.4104}
-\contentsline {subsubsection}{Window (lv\_win)}{313}{subsubsection*.4155}
-\contentsline {paragraph}{Overview}{313}{paragraph*.4156}
-\contentsline {subparagraph}{Title}{313}{subparagraph*.4157}
-\contentsline {subparagraph}{Control buttons}{313}{subparagraph*.4158}
-\contentsline {subparagraph}{Scrollbars}{313}{subparagraph*.4159}
-\contentsline {subparagraph}{Manual scroll and focus}{313}{subparagraph*.4160}
-\contentsline {subparagraph}{Layout}{313}{subparagraph*.4161}
-\contentsline {paragraph}{Style usage}{313}{paragraph*.4162}
-\contentsline {paragraph}{Events}{314}{paragraph*.4163}
-\contentsline {paragraph}{Keys}{314}{paragraph*.4164}
-\contentsline {paragraph}{Example}{314}{paragraph*.4165}
-\contentsline {subparagraph}{C}{315}{subparagraph*.4166}
-\contentsline {subparagraph}{MicroPython}{315}{subparagraph*.4167}
-\contentsline {paragraph}{API}{316}{paragraph*.4168}
+\contentsline {subsubsection}{Simulator on PC}{7}{subsubsection*.4}
+\contentsline {paragraph}{Select an IDE}{7}{paragraph*.5}
+\contentsline {paragraph}{Set-up Eclipse CDT}{8}{paragraph*.6}
+\contentsline {subparagraph}{Install Eclipse CDT}{8}{subparagraph*.7}
+\contentsline {subparagraph}{Install SDL 2}{8}{subparagraph*.8}
+\contentsline {subparagraph}{Linux}{8}{subparagraph*.9}
+\contentsline {subparagraph}{Windows}{8}{subparagraph*.10}
+\contentsline {subparagraph}{OSX}{8}{subparagraph*.11}
+\contentsline {subparagraph}{Pre-configured project}{9}{subparagraph*.12}
+\contentsline {subparagraph}{Add the pre-configured project to Eclipse CDT}{9}{subparagraph*.13}
+\contentsline {subparagraph}{Compile and Run}{9}{subparagraph*.14}
+\contentsline {subsubsection}{Gyors áttekintés}{9}{subsubsection*.15}
+\contentsline {paragraph}{LittlevGL hozzáadása egy projekthez}{9}{paragraph*.16}
+\contentsline {paragraph}{Learn the basics}{11}{paragraph*.17}
+\contentsline {subparagraph}{Objects (Widgets)}{11}{subparagraph*.18}
+\contentsline {subparagraph}{Styles}{11}{subparagraph*.19}
+\contentsline {subparagraph}{Events}{12}{subparagraph*.20}
+\contentsline {paragraph}{Examples}{12}{paragraph*.21}
+\contentsline {subparagraph}{Button with label}{12}{subparagraph*.22}
+\contentsline {subparagraph}{Button with styles}{13}{subparagraph*.23}
+\contentsline {subparagraph}{Slider and object alignment}{13}{subparagraph*.24}
+\contentsline {subparagraph}{List and themes}{14}{subparagraph*.25}
+\contentsline {subparagraph}{Use LittlevGL from Micropython}{15}{subparagraph*.26}
+\contentsline {paragraph}{Közreműködés}{16}{paragraph*.27}
+\contentsline {subsubsection}{Micropython}{16}{subsubsection*.28}
+\contentsline {paragraph}{What is Micropython?}{16}{paragraph*.29}
+\contentsline {subparagraph}{Micropython highlights}{16}{subparagraph*.30}
+\contentsline {paragraph}{Why Micropython + LittlevGL?}{17}{paragraph*.31}
+\contentsline {subparagraph}{Here are some advantages of using LittlevGL in Micropython:}{17}{subparagraph*.32}
+\contentsline {subparagraph}{Micropython + LittlevGL could be used for:}{17}{subparagraph*.33}
+\contentsline {paragraph}{So how does it look like?}{17}{paragraph*.34}
+\contentsline {subparagraph}{A simple example}{17}{subparagraph*.35}
+\contentsline {paragraph}{How can I use it?}{18}{paragraph*.36}
+\contentsline {subparagraph}{Online Simulator}{18}{subparagraph*.37}
+\contentsline {subparagraph}{PC Simulator}{18}{subparagraph*.38}
+\contentsline {subparagraph}{The real thing}{18}{subparagraph*.39}
+\contentsline {paragraph}{Where can I find more information?}{18}{paragraph*.40}
+\contentsline {subsection}{\numberline {3.15.2}Portolás}{18}{subsection.3.15.2}
+\contentsline {subsubsection}{System overview}{19}{subsubsection*.41}
+\contentsline {subsubsection}{Set-up a project}{19}{subsubsection*.42}
+\contentsline {paragraph}{Get the library}{19}{paragraph*.43}
+\contentsline {paragraph}{Config file}{19}{paragraph*.44}
+\contentsline {paragraph}{Initialization}{20}{paragraph*.45}
+\contentsline {subsubsection}{Kijelző interface}{20}{subsubsection*.46}
+\contentsline {paragraph}{Kijelző buffer}{20}{paragraph*.47}
+\contentsline {paragraph}{Kijelző driver}{21}{paragraph*.48}
+\contentsline {paragraph}{API}{23}{paragraph*.49}
+\contentsline {subsubsection}{Input device interface}{27}{subsubsection*.158}
+\contentsline {paragraph}{Types of input devices}{27}{paragraph*.159}
+\contentsline {subparagraph}{Touchpad, mouse or any pointer}{28}{subparagraph*.160}
+\contentsline {subparagraph}{Keypad or keyboard}{28}{subparagraph*.161}
+\contentsline {subparagraph}{Encoder}{29}{subparagraph*.162}
+\contentsline {subparagraph}{Button}{29}{subparagraph*.163}
+\contentsline {paragraph}{Other features}{30}{paragraph*.164}
+\contentsline {paragraph}{API}{30}{paragraph*.165}
+\contentsline {subsubsection}{Tick interface}{34}{subsubsection*.298}
+\contentsline {paragraph}{API}{34}{paragraph*.299}
+\contentsline {subsubsection}{Task Handler}{35}{subsubsection*.304}
+\contentsline {subsubsection}{Sleep management}{35}{subsubsection*.305}
+\contentsline {subsubsection}{Operating system and interrupts}{36}{subsubsection*.306}
+\contentsline {paragraph}{Tasks and threads}{36}{paragraph*.307}
+\contentsline {paragraph}{Interrupts}{36}{paragraph*.308}
+\contentsline {subsubsection}{Logging}{36}{subsubsection*.309}
+\contentsline {paragraph}{Log level}{36}{paragraph*.310}
+\contentsline {paragraph}{Logging with printf}{37}{paragraph*.311}
+\contentsline {paragraph}{Custom log function}{37}{paragraph*.312}
+\contentsline {paragraph}{Add logs}{37}{paragraph*.313}
+\contentsline {subsection}{\numberline {3.15.3}Overview}{37}{subsection.3.15.3}
+\contentsline {subsubsection}{Objects}{37}{subsubsection*.314}
+\contentsline {paragraph}{Object attributes}{38}{paragraph*.315}
+\contentsline {subparagraph}{Basic attributes}{38}{subparagraph*.316}
+\contentsline {subparagraph}{Specific attributes}{38}{subparagraph*.317}
+\contentsline {paragraph}{Object’s working mechanisms}{38}{paragraph*.318}
+\contentsline {subparagraph}{Parent-child structure}{38}{subparagraph*.319}
+\contentsline {subparagraph}{Moving together}{39}{subparagraph*.320}
+\contentsline {subparagraph}{Visibility only on the parent}{40}{subparagraph*.321}
+\contentsline {subparagraph}{Create - delete objects}{41}{subparagraph*.322}
+\contentsline {subparagraph}{Screen \textendash {} the most basic parent}{41}{subparagraph*.323}
+\contentsline {subsubsection}{Layers}{41}{subsubsection*.324}
+\contentsline {paragraph}{Order of creation}{41}{paragraph*.325}
+\contentsline {paragraph}{Bring to the foreground}{42}{paragraph*.326}
+\contentsline {paragraph}{Top and sys layer}{43}{paragraph*.327}
+\contentsline {subsubsection}{Events}{43}{subsubsection*.328}
+\contentsline {paragraph}{Event types}{44}{paragraph*.329}
+\contentsline {subparagraph}{Generic events}{44}{subparagraph*.330}
+\contentsline {subparagraph}{Input device related}{44}{subparagraph*.331}
+\contentsline {subparagraph}{Pointer related}{45}{subparagraph*.332}
+\contentsline {subparagraph}{Keypad and encoder related}{45}{subparagraph*.333}
+\contentsline {subparagraph}{General events}{45}{subparagraph*.334}
+\contentsline {subparagraph}{Special events}{45}{subparagraph*.335}
+\contentsline {paragraph}{Custom data}{45}{paragraph*.336}
+\contentsline {paragraph}{Send events manually}{46}{paragraph*.337}
+\contentsline {subsubsection}{Styles}{46}{subsubsection*.338}
+\contentsline {paragraph}{Use the styles}{46}{paragraph*.339}
+\contentsline {paragraph}{Inherit styles}{47}{paragraph*.340}
+\contentsline {paragraph}{Style properties}{47}{paragraph*.341}
+\contentsline {subparagraph}{Common properties}{47}{subparagraph*.342}
+\contentsline {subparagraph}{Body style properties}{47}{subparagraph*.343}
+\contentsline {subparagraph}{Text style properties}{48}{subparagraph*.344}
+\contentsline {subparagraph}{Image style properties}{48}{subparagraph*.345}
+\contentsline {subparagraph}{Line style properties}{49}{subparagraph*.346}
+\contentsline {paragraph}{Built-in styles}{49}{paragraph*.347}
+\contentsline {paragraph}{Create new styles}{49}{paragraph*.348}
+\contentsline {paragraph}{Style animations}{50}{paragraph*.349}
+\contentsline {paragraph}{Style example}{50}{paragraph*.350}
+\contentsline {paragraph}{Themes}{51}{paragraph*.351}
+\contentsline {subparagraph}{Live update}{52}{subparagraph*.352}
+\contentsline {subsubsection}{Input devices}{52}{subsubsection*.353}
+\contentsline {paragraph}{Pointers}{53}{paragraph*.354}
+\contentsline {paragraph}{Keypad and encoder}{53}{paragraph*.355}
+\contentsline {subparagraph}{Groups}{53}{subparagraph*.356}
+\contentsline {subparagraph}{Keys}{53}{subparagraph*.357}
+\contentsline {subparagraph}{Edit and navigate mode}{54}{subparagraph*.358}
+\contentsline {subparagraph}{Styling the focused object}{54}{subparagraph*.359}
+\contentsline {subparagraph}{Live demo}{55}{subparagraph*.360}
+\contentsline {paragraph}{API}{55}{paragraph*.361}
+\contentsline {subparagraph}{Input device}{55}{subparagraph*.362}
+\contentsline {subparagraph}{Groups}{57}{subparagraph*.397}
+\contentsline {subsubsection}{Displays}{62}{subsubsection*.524}
+\contentsline {paragraph}{Using only one display}{63}{paragraph*.525}
+\contentsline {paragraph}{Mirror display}{63}{paragraph*.526}
+\contentsline {paragraph}{Split image}{63}{paragraph*.527}
+\contentsline {paragraph}{Screens}{63}{paragraph*.528}
+\contentsline {subparagraph}{Opaque screen}{63}{subparagraph*.529}
+\contentsline {paragraph}{Features of displays}{64}{paragraph*.530}
+\contentsline {subparagraph}{Inactivity}{64}{subparagraph*.531}
+\contentsline {paragraph}{Colors}{64}{paragraph*.532}
+\contentsline {subparagraph}{Convert color}{64}{subparagraph*.533}
+\contentsline {subparagraph}{Swap 16 colors}{65}{subparagraph*.534}
+\contentsline {subparagraph}{Create and mix colors}{65}{subparagraph*.535}
+\contentsline {subparagraph}{Opacity}{65}{subparagraph*.536}
+\contentsline {subparagraph}{Built-in colors}{66}{subparagraph*.537}
+\contentsline {paragraph}{API}{66}{paragraph*.538}
+\contentsline {subparagraph}{Display}{66}{subparagraph*.539}
+\contentsline {subparagraph}{Colors}{68}{subparagraph*.564}
+\contentsline {subsubsection}{Fonts}{70}{subsubsection*.661}
+\contentsline {paragraph}{Unicode support}{70}{paragraph*.662}
+\contentsline {paragraph}{Built-in fonts}{70}{paragraph*.663}
+\contentsline {paragraph}{Add new font}{72}{paragraph*.664}
+\contentsline {paragraph}{Add new symbols}{72}{paragraph*.665}
+\contentsline {paragraph}{Add a new font engine}{72}{paragraph*.666}
+\contentsline {subsubsection}{Images}{73}{subsubsection*.667}
+\contentsline {paragraph}{Store images}{74}{paragraph*.668}
+\contentsline {subparagraph}{Variables}{74}{subparagraph*.669}
+\contentsline {subparagraph}{Files}{74}{subparagraph*.670}
+\contentsline {paragraph}{Color formats}{74}{paragraph*.671}
+\contentsline {paragraph}{Add and use images}{75}{paragraph*.672}
+\contentsline {subparagraph}{Online converter}{75}{subparagraph*.673}
+\contentsline {subparagraph}{Manually create an image}{75}{subparagraph*.674}
+\contentsline {subparagraph}{Use images}{76}{subparagraph*.675}
+\contentsline {paragraph}{Image decoder}{76}{paragraph*.676}
+\contentsline {subparagraph}{Custom image formats}{77}{subparagraph*.677}
+\contentsline {subparagraph}{Register an image decoder}{77}{subparagraph*.678}
+\contentsline {subparagraph}{Manually use an image decoder}{79}{subparagraph*.679}
+\contentsline {paragraph}{Image caching}{79}{paragraph*.680}
+\contentsline {subparagraph}{Cache size}{79}{subparagraph*.681}
+\contentsline {subparagraph}{Value of images}{80}{subparagraph*.682}
+\contentsline {subparagraph}{Memory usage}{80}{subparagraph*.683}
+\contentsline {subparagraph}{Clean the cache}{80}{subparagraph*.684}
+\contentsline {paragraph}{API}{80}{paragraph*.685}
+\contentsline {subparagraph}{Image decoder}{80}{subparagraph*.686}
+\contentsline {subparagraph}{Image cache}{85}{subparagraph*.823}
+\contentsline {subsubsection}{File system}{86}{subsubsection*.836}
+\contentsline {paragraph}{Add a driver}{86}{paragraph*.837}
+\contentsline {paragraph}{Usage example}{87}{paragraph*.838}
+\contentsline {paragraph}{Use drivers for images}{88}{paragraph*.839}
+\contentsline {paragraph}{API}{88}{paragraph*.840}
+\contentsline {subsubsection}{Animations}{93}{subsubsection*.992}
+\contentsline {paragraph}{Create an animation}{93}{paragraph*.993}
+\contentsline {paragraph}{Animation path}{94}{paragraph*.994}
+\contentsline {paragraph}{Speed vs time}{94}{paragraph*.995}
+\contentsline {paragraph}{Delete animations}{94}{paragraph*.996}
+\contentsline {paragraph}{API}{95}{paragraph*.997}
+\contentsline {subparagraph}{Input device}{95}{subparagraph*.998}
+\contentsline {subsubsection}{Tasks}{100}{subsubsection*.1109}
+\contentsline {paragraph}{Create a task}{100}{paragraph*.1110}
+\contentsline {paragraph}{Ready and Reset}{101}{paragraph*.1111}
+\contentsline {paragraph}{Set parameters}{101}{paragraph*.1112}
+\contentsline {paragraph}{One-shot tasks}{101}{paragraph*.1113}
+\contentsline {paragraph}{Measure idle time}{101}{paragraph*.1114}
+\contentsline {paragraph}{Asynchronous calls}{101}{paragraph*.1115}
+\contentsline {paragraph}{API}{102}{paragraph*.1116}
+\contentsline {subsubsection}{Drawing}{104}{subsubsection*.1178}
+\contentsline {paragraph}{Buffering types}{104}{paragraph*.1179}
+\contentsline {paragraph}{Mechanism of screen refreshing}{105}{paragraph*.1180}
+\contentsline {subsection}{\numberline {3.15.4}Object types (Widgets)}{105}{subsection.3.15.4}
+\contentsline {subsubsection}{Base object (lv\_obj)}{105}{subsubsection*.1181}
+\contentsline {paragraph}{Overview}{105}{paragraph*.1182}
+\contentsline {subparagraph}{Coordinates}{106}{subparagraph*.1183}
+\contentsline {subparagraph}{Parents and children}{107}{subparagraph*.1184}
+\contentsline {subparagraph}{Screens}{107}{subparagraph*.1185}
+\contentsline {subparagraph}{Layers}{107}{subparagraph*.1186}
+\contentsline {subparagraph}{Style}{108}{subparagraph*.1187}
+\contentsline {subparagraph}{Events}{108}{subparagraph*.1188}
+\contentsline {subparagraph}{Attributes}{108}{subparagraph*.1189}
+\contentsline {subparagraph}{Opa scale}{108}{subparagraph*.1190}
+\contentsline {subparagraph}{Protect}{109}{subparagraph*.1191}
+\contentsline {subparagraph}{Groups}{109}{subparagraph*.1192}
+\contentsline {subparagraph}{Extended click area}{109}{subparagraph*.1193}
+\contentsline {paragraph}{Styles}{110}{paragraph*.1194}
+\contentsline {paragraph}{Events}{110}{paragraph*.1195}
+\contentsline {paragraph}{Keys}{110}{paragraph*.1196}
+\contentsline {paragraph}{Example}{110}{paragraph*.1197}
+\contentsline {subparagraph}{C}{110}{subparagraph*.1198}
+\contentsline {subparagraph}{MicroPython}{111}{subparagraph*.1199}
+\contentsline {paragraph}{API}{111}{paragraph*.1200}
+\contentsline {subsubsection}{Arc (lv\_arc)}{128}{subsubsection*.1630}
+\contentsline {paragraph}{Overview}{128}{paragraph*.1631}
+\contentsline {subparagraph}{Angles}{128}{subparagraph*.1632}
+\contentsline {subparagraph}{Notes}{129}{subparagraph*.1633}
+\contentsline {paragraph}{Styles}{129}{paragraph*.1634}
+\contentsline {paragraph}{Events}{129}{paragraph*.1635}
+\contentsline {paragraph}{Keys}{129}{paragraph*.1636}
+\contentsline {paragraph}{Example}{129}{paragraph*.1637}
+\contentsline {subparagraph}{C}{129}{subparagraph*.1638}
+\contentsline {subparagraph}{MicroPython}{130}{subparagraph*.1639}
+\contentsline {paragraph}{API}{130}{paragraph*.1640}
+\contentsline {subsubsection}{Bar (lv\_bar)}{131}{subsubsection*.1665}
+\contentsline {paragraph}{Overview}{131}{paragraph*.1666}
+\contentsline {subparagraph}{Value and range}{132}{subparagraph*.1667}
+\contentsline {subparagraph}{Symmetrical}{132}{subparagraph*.1668}
+\contentsline {paragraph}{Styles}{132}{paragraph*.1669}
+\contentsline {paragraph}{Events}{132}{paragraph*.1670}
+\contentsline {paragraph}{Keys}{132}{paragraph*.1671}
+\contentsline {paragraph}{Example}{132}{paragraph*.1672}
+\contentsline {subparagraph}{C}{133}{subparagraph*.1673}
+\contentsline {subparagraph}{MicroPython}{134}{subparagraph*.1674}
+\contentsline {paragraph}{API}{134}{paragraph*.1675}
+\contentsline {subsubsection}{Button (lv\_btn)}{137}{subsubsection*.1728}
+\contentsline {paragraph}{Overview}{137}{paragraph*.1729}
+\contentsline {subparagraph}{States}{137}{subparagraph*.1730}
+\contentsline {subparagraph}{Toggle}{137}{subparagraph*.1731}
+\contentsline {subparagraph}{Layout and Fit}{137}{subparagraph*.1732}
+\contentsline {subparagraph}{Ink effect}{137}{subparagraph*.1733}
+\contentsline {paragraph}{Styles}{138}{paragraph*.1734}
+\contentsline {paragraph}{Events}{138}{paragraph*.1735}
+\contentsline {paragraph}{Keys}{138}{paragraph*.1736}
+\contentsline {paragraph}{Example}{139}{paragraph*.1737}
+\contentsline {subparagraph}{C}{139}{subparagraph*.1738}
+\contentsline {subparagraph}{MicroPython}{140}{subparagraph*.1739}
+\contentsline {paragraph}{API}{140}{paragraph*.1740}
+\contentsline {subsubsection}{Button matrix (lv\_btnm)}{144}{subsubsection*.1833}
+\contentsline {paragraph}{Overview}{144}{paragraph*.1834}
+\contentsline {subparagraph}{Button’s text}{144}{subparagraph*.1835}
+\contentsline {subparagraph}{Control buttons}{145}{subparagraph*.1836}
+\contentsline {subparagraph}{One toggle}{145}{subparagraph*.1837}
+\contentsline {subparagraph}{Recolor}{145}{subparagraph*.1838}
+\contentsline {subparagraph}{Notes}{145}{subparagraph*.1839}
+\contentsline {paragraph}{Styles}{146}{paragraph*.1840}
+\contentsline {paragraph}{Events}{146}{paragraph*.1841}
+\contentsline {paragraph}{Example}{146}{paragraph*.1842}
+\contentsline {subparagraph}{C}{147}{subparagraph*.1843}
+\contentsline {subparagraph}{MicroPython}{147}{subparagraph*.1844}
+\contentsline {paragraph}{API}{148}{paragraph*.1845}
+\contentsline {subsubsection}{Calendar (lv\_calendar)}{152}{subsubsection*.1940}
+\contentsline {paragraph}{Overview}{152}{paragraph*.1941}
+\contentsline {subparagraph}{Current date}{152}{subparagraph*.1942}
+\contentsline {subparagraph}{Shown date}{152}{subparagraph*.1943}
+\contentsline {subparagraph}{Highlighted days}{153}{subparagraph*.1944}
+\contentsline {subparagraph}{Name of the days}{153}{subparagraph*.1945}
+\contentsline {subparagraph}{Name of the months}{153}{subparagraph*.1946}
+\contentsline {paragraph}{Styles}{153}{paragraph*.1947}
+\contentsline {paragraph}{Events}{153}{paragraph*.1948}
+\contentsline {paragraph}{Keys}{154}{paragraph*.1949}
+\contentsline {paragraph}{Example}{154}{paragraph*.1950}
+\contentsline {subparagraph}{C}{154}{subparagraph*.1951}
+\contentsline {subparagraph}{MicroPython}{155}{subparagraph*.1952}
+\contentsline {paragraph}{API}{155}{paragraph*.1953}
+\contentsline {subsubsection}{Canvas (lv\_canvas)}{159}{subsubsection*.2044}
+\contentsline {paragraph}{Overview}{159}{paragraph*.2045}
+\contentsline {subparagraph}{Buffer}{159}{subparagraph*.2046}
+\contentsline {subparagraph}{Palette}{159}{subparagraph*.2047}
+\contentsline {subparagraph}{Drawing}{159}{subparagraph*.2048}
+\contentsline {subparagraph}{Rotate}{160}{subparagraph*.2049}
+\contentsline {paragraph}{Styles}{160}{paragraph*.2050}
+\contentsline {paragraph}{Events}{160}{paragraph*.2051}
+\contentsline {paragraph}{Keys}{160}{paragraph*.2052}
+\contentsline {paragraph}{Example}{160}{paragraph*.2053}
+\contentsline {subparagraph}{C}{160}{subparagraph*.2054}
+\contentsline {subparagraph}{MicroPython}{161}{subparagraph*.2055}
+\contentsline {paragraph}{API}{162}{paragraph*.2056}
+\contentsline {subsubsection}{Check box (lv\_cb)}{166}{subsubsection*.2103}
+\contentsline {paragraph}{Overview}{166}{paragraph*.2104}
+\contentsline {subparagraph}{Text}{166}{subparagraph*.2105}
+\contentsline {subparagraph}{Check/Uncheck}{166}{subparagraph*.2106}
+\contentsline {subparagraph}{Inactive}{166}{subparagraph*.2107}
+\contentsline {paragraph}{Styles}{166}{paragraph*.2108}
+\contentsline {paragraph}{Events}{167}{paragraph*.2109}
+\contentsline {paragraph}{Keys}{167}{paragraph*.2110}
+\contentsline {paragraph}{Example}{167}{paragraph*.2111}
+\contentsline {subparagraph}{C}{167}{subparagraph*.2112}
+\contentsline {subparagraph}{MicroPython}{168}{subparagraph*.2113}
+\contentsline {paragraph}{API}{168}{paragraph*.2114}
+\contentsline {subsubsection}{Chart (lv\_chart)}{170}{subsubsection*.2159}
+\contentsline {paragraph}{Overview}{170}{paragraph*.2160}
+\contentsline {subparagraph}{Data series}{170}{subparagraph*.2161}
+\contentsline {subparagraph}{Series’ type}{170}{subparagraph*.2162}
+\contentsline {subparagraph}{Modify the data}{171}{subparagraph*.2163}
+\contentsline {subparagraph}{Update modes}{171}{subparagraph*.2164}
+\contentsline {subparagraph}{Number of points}{171}{subparagraph*.2165}
+\contentsline {subparagraph}{Vertical range}{171}{subparagraph*.2166}
+\contentsline {subparagraph}{Division lines}{171}{subparagraph*.2167}
+\contentsline {subparagraph}{Series’ appearance}{172}{subparagraph*.2168}
+\contentsline {subparagraph}{Tick marks and labels}{172}{subparagraph*.2169}
+\contentsline {paragraph}{Styles}{172}{paragraph*.2170}
+\contentsline {paragraph}{Events}{172}{paragraph*.2171}
+\contentsline {paragraph}{Keys}{172}{paragraph*.2172}
+\contentsline {paragraph}{Example}{173}{paragraph*.2173}
+\contentsline {subparagraph}{C}{173}{subparagraph*.2174}
+\contentsline {subparagraph}{MicroPython}{174}{subparagraph*.2175}
+\contentsline {paragraph}{API}{174}{paragraph*.2176}
+\contentsline {subsubsection}{Container (lv\_cont)}{180}{subsubsection*.2325}
+\contentsline {paragraph}{Overview}{180}{paragraph*.2326}
+\contentsline {subparagraph}{Layout}{181}{subparagraph*.2327}
+\contentsline {subparagraph}{Auto fit}{181}{subparagraph*.2328}
+\contentsline {paragraph}{Styles}{181}{paragraph*.2329}
+\contentsline {paragraph}{Events}{182}{paragraph*.2330}
+\contentsline {paragraph}{Keys}{182}{paragraph*.2331}
+\contentsline {paragraph}{Example}{182}{paragraph*.2332}
+\contentsline {subparagraph}{C}{182}{subparagraph*.2333}
+\contentsline {subparagraph}{MicroPython}{183}{subparagraph*.2334}
+\contentsline {paragraph}{API}{183}{paragraph*.2335}
+\contentsline {subsubsection}{Drop down list (lv\_ddlist)}{186}{subsubsection*.2418}
+\contentsline {paragraph}{Overview}{186}{paragraph*.2419}
+\contentsline {subparagraph}{Set options}{186}{subparagraph*.2420}
+\contentsline {subparagraph}{Get selected option}{187}{subparagraph*.2421}
+\contentsline {subparagraph}{Align the options}{187}{subparagraph*.2422}
+\contentsline {subparagraph}{Height and width}{187}{subparagraph*.2423}
+\contentsline {subparagraph}{Scrollbars}{187}{subparagraph*.2424}
+\contentsline {subparagraph}{Animation time}{187}{subparagraph*.2425}
+\contentsline {subparagraph}{Decoration arrow}{187}{subparagraph*.2426}
+\contentsline {subparagraph}{Stay open}{187}{subparagraph*.2427}
+\contentsline {paragraph}{Styles}{187}{paragraph*.2428}
+\contentsline {paragraph}{Events}{188}{paragraph*.2429}
+\contentsline {paragraph}{Keys}{188}{paragraph*.2430}
+\contentsline {paragraph}{Example}{188}{paragraph*.2431}
+\contentsline {subparagraph}{C}{188}{subparagraph*.2432}
+\contentsline {subparagraph}{MicroPython}{189}{subparagraph*.2433}
+\contentsline {paragraph}{API}{189}{paragraph*.2434}
+\contentsline {subsubsection}{Gauge (lv\_gauge)}{193}{subsubsection*.2515}
+\contentsline {paragraph}{Overview}{193}{paragraph*.2516}
+\contentsline {subparagraph}{Scale}{193}{subparagraph*.2517}
+\contentsline {subparagraph}{Needles}{193}{subparagraph*.2518}
+\contentsline {subparagraph}{Range}{193}{subparagraph*.2519}
+\contentsline {subparagraph}{Critical value}{194}{subparagraph*.2520}
+\contentsline {paragraph}{Styles}{194}{paragraph*.2521}
+\contentsline {paragraph}{Events}{194}{paragraph*.2522}
+\contentsline {paragraph}{Keys}{194}{paragraph*.2523}
+\contentsline {paragraph}{Example}{194}{paragraph*.2524}
+\contentsline {subparagraph}{C}{195}{subparagraph*.2525}
+\contentsline {subparagraph}{MicroPython}{196}{subparagraph*.2526}
+\contentsline {paragraph}{API}{196}{paragraph*.2527}
+\contentsline {subsubsection}{Image (lv\_img)}{199}{subsubsection*.2578}
+\contentsline {paragraph}{Overview}{199}{paragraph*.2579}
+\contentsline {subparagraph}{Image source}{199}{subparagraph*.2580}
+\contentsline {subparagraph}{Label as an image}{199}{subparagraph*.2581}
+\contentsline {subparagraph}{Transparency}{199}{subparagraph*.2582}
+\contentsline {subparagraph}{Palette and Alpha index}{200}{subparagraph*.2583}
+\contentsline {subparagraph}{Recolor}{200}{subparagraph*.2584}
+\contentsline {subparagraph}{Auto-size}{200}{subparagraph*.2585}
+\contentsline {subparagraph}{Mosaic}{200}{subparagraph*.2586}
+\contentsline {subparagraph}{Offset}{200}{subparagraph*.2587}
+\contentsline {paragraph}{Styles}{200}{paragraph*.2588}
+\contentsline {paragraph}{Events}{201}{paragraph*.2589}
+\contentsline {paragraph}{Keys}{201}{paragraph*.2590}
+\contentsline {paragraph}{Example}{201}{paragraph*.2591}
+\contentsline {subparagraph}{C}{201}{subparagraph*.2592}
+\contentsline {subparagraph}{MicroPython}{202}{subparagraph*.2593}
+\contentsline {paragraph}{API}{202}{paragraph*.2594}
+\contentsline {subsubsection}{Image button (lv\_imgbtn)}{204}{subsubsection*.2641}
+\contentsline {paragraph}{Overview}{204}{paragraph*.2642}
+\contentsline {subparagraph}{Image sources}{204}{subparagraph*.2643}
+\contentsline {subparagraph}{States}{205}{subparagraph*.2644}
+\contentsline {subparagraph}{Toggle}{205}{subparagraph*.2645}
+\contentsline {paragraph}{Style usage}{205}{paragraph*.2646}
+\contentsline {paragraph}{Events}{205}{paragraph*.2647}
+\contentsline {paragraph}{Keys}{205}{paragraph*.2648}
+\contentsline {paragraph}{Example}{206}{paragraph*.2649}
+\contentsline {subparagraph}{C}{206}{subparagraph*.2650}
+\contentsline {subparagraph}{MicroPython}{207}{subparagraph*.2651}
+\contentsline {paragraph}{API}{207}{paragraph*.2652}
+\contentsline {subsubsection}{Keyboard (lv\_kb)}{210}{subsubsection*.2709}
+\contentsline {paragraph}{Overview}{210}{paragraph*.2710}
+\contentsline {subparagraph}{Modes}{210}{subparagraph*.2711}
+\contentsline {subparagraph}{Assign Text area}{210}{subparagraph*.2712}
+\contentsline {subparagraph}{New key map}{210}{subparagraph*.2713}
+\contentsline {paragraph}{Styles}{210}{paragraph*.2714}
+\contentsline {paragraph}{Events}{211}{paragraph*.2715}
+\contentsline {paragraph}{Keys}{211}{paragraph*.2716}
+\contentsline {paragraph}{Examples}{211}{paragraph*.2717}
+\contentsline {subparagraph}{C}{212}{subparagraph*.2718}
+\contentsline {subparagraph}{MicroPython}{213}{subparagraph*.2719}
+\contentsline {paragraph}{API}{213}{paragraph*.2720}
+\contentsline {subsubsection}{Label (lv\_label)}{215}{subsubsection*.2781}
+\contentsline {paragraph}{Overview}{215}{paragraph*.2782}
+\contentsline {subparagraph}{Set text}{216}{subparagraph*.2783}
+\contentsline {subparagraph}{Line break}{216}{subparagraph*.2784}
+\contentsline {subparagraph}{Long modes}{216}{subparagraph*.2785}
+\contentsline {subparagraph}{Text align}{216}{subparagraph*.2786}
+\contentsline {subparagraph}{Draw background}{216}{subparagraph*.2787}
+\contentsline {subparagraph}{Text recolor}{217}{subparagraph*.2788}
+\contentsline {subparagraph}{Very long texts}{217}{subparagraph*.2789}
+\contentsline {subparagraph}{Symbols}{217}{subparagraph*.2790}
+\contentsline {paragraph}{Styles}{217}{paragraph*.2791}
+\contentsline {paragraph}{Events}{217}{paragraph*.2792}
+\contentsline {paragraph}{Keys}{217}{paragraph*.2793}
+\contentsline {paragraph}{Example}{217}{paragraph*.2794}
+\contentsline {subparagraph}{C}{218}{subparagraph*.2795}
+\contentsline {subparagraph}{MicroPython}{218}{subparagraph*.2796}
+\contentsline {paragraph}{API}{218}{paragraph*.2797}
+\contentsline {subsubsection}{LED (lv\_led)}{224}{subsubsection*.2918}
+\contentsline {paragraph}{Overview}{224}{paragraph*.2919}
+\contentsline {subparagraph}{Brightness}{224}{subparagraph*.2920}
+\contentsline {subparagraph}{Toggle}{224}{subparagraph*.2921}
+\contentsline {paragraph}{Styles}{224}{paragraph*.2922}
+\contentsline {paragraph}{Events}{224}{paragraph*.2923}
+\contentsline {paragraph}{Keys}{225}{paragraph*.2924}
+\contentsline {paragraph}{Example}{225}{paragraph*.2925}
+\contentsline {subparagraph}{C}{225}{subparagraph*.2926}
+\contentsline {subparagraph}{MicroPython}{226}{subparagraph*.2927}
+\contentsline {paragraph}{API}{226}{paragraph*.2928}
+\contentsline {subsubsection}{Line (lv\_line)}{227}{subsubsection*.2955}
+\contentsline {paragraph}{Overview}{227}{paragraph*.2956}
+\contentsline {subparagraph}{Set points}{228}{subparagraph*.2957}
+\contentsline {subparagraph}{Auto-size}{228}{subparagraph*.2958}
+\contentsline {subparagraph}{Invert y}{228}{subparagraph*.2959}
+\contentsline {paragraph}{Styles}{228}{paragraph*.2960}
+\contentsline {paragraph}{Events}{228}{paragraph*.2961}
+\contentsline {paragraph}{Keys}{228}{paragraph*.2962}
+\contentsline {paragraph}{Example}{228}{paragraph*.2963}
+\contentsline {subparagraph}{C}{229}{subparagraph*.2964}
+\contentsline {subparagraph}{MicroPython}{229}{subparagraph*.2965}
+\contentsline {paragraph}{API}{229}{paragraph*.2966}
+\contentsline {subsubsection}{List (lv\_list)}{231}{subsubsection*.2999}
+\contentsline {paragraph}{Overview}{231}{paragraph*.3000}
+\contentsline {subparagraph}{Add buttons}{231}{subparagraph*.3001}
+\contentsline {subparagraph}{Delete buttons}{232}{subparagraph*.3002}
+\contentsline {subparagraph}{Manual navigation}{232}{subparagraph*.3003}
+\contentsline {subparagraph}{Edge flash}{232}{subparagraph*.3004}
+\contentsline {subparagraph}{Scroll propagation}{232}{subparagraph*.3005}
+\contentsline {paragraph}{Style usage}{232}{paragraph*.3006}
+\contentsline {paragraph}{Events}{233}{paragraph*.3007}
+\contentsline {paragraph}{Keys}{233}{paragraph*.3008}
+\contentsline {paragraph}{Example}{233}{paragraph*.3009}
+\contentsline {subparagraph}{C}{233}{subparagraph*.3010}
+\contentsline {subparagraph}{MicroPython}{234}{subparagraph*.3011}
+\contentsline {paragraph}{API}{234}{paragraph*.3012}
+\contentsline {subsubsection}{Line meter (lv\_lmeter)}{239}{subsubsection*.3107}
+\contentsline {paragraph}{Overview}{239}{paragraph*.3108}
+\contentsline {subparagraph}{Set value}{239}{subparagraph*.3109}
+\contentsline {subparagraph}{Range and Angles}{239}{subparagraph*.3110}
+\contentsline {paragraph}{Styles}{240}{paragraph*.3111}
+\contentsline {paragraph}{Events}{240}{paragraph*.3112}
+\contentsline {paragraph}{Keys}{240}{paragraph*.3113}
+\contentsline {paragraph}{Example}{240}{paragraph*.3114}
+\contentsline {subparagraph}{C}{240}{subparagraph*.3115}
+\contentsline {subparagraph}{MicroPython}{241}{subparagraph*.3116}
+\contentsline {paragraph}{API}{241}{paragraph*.3117}
+\contentsline {subsubsection}{Message box (lv\_mbox)}{243}{subsubsection*.3158}
+\contentsline {paragraph}{Overview}{243}{paragraph*.3159}
+\contentsline {subparagraph}{Set text}{243}{subparagraph*.3160}
+\contentsline {subparagraph}{Add buttons}{244}{subparagraph*.3161}
+\contentsline {subparagraph}{Auto-close}{244}{subparagraph*.3162}
+\contentsline {paragraph}{Styles}{244}{paragraph*.3163}
+\contentsline {paragraph}{Events}{244}{paragraph*.3164}
+\contentsline {paragraph}{Example}{245}{paragraph*.3165}
+\contentsline {subparagraph}{C}{245}{subparagraph*.3166}
+\contentsline {subparagraph}{MicroPython}{248}{subparagraph*.3167}
+\contentsline {paragraph}{API}{248}{paragraph*.3168}
+\contentsline {subsubsection}{Page (lv\_page)}{251}{subsubsection*.3227}
+\contentsline {paragraph}{Overview}{251}{paragraph*.3228}
+\contentsline {subparagraph}{Scrollbars}{251}{subparagraph*.3229}
+\contentsline {subparagraph}{Glue object}{252}{subparagraph*.3230}
+\contentsline {subparagraph}{Focus object}{252}{subparagraph*.3231}
+\contentsline {subparagraph}{Manual navigation}{252}{subparagraph*.3232}
+\contentsline {subparagraph}{Edge flash}{252}{subparagraph*.3233}
+\contentsline {subparagraph}{Scroll propagation}{252}{subparagraph*.3234}
+\contentsline {subparagraph}{Scrollable API}{252}{subparagraph*.3235}
+\contentsline {subparagraph}{Notes}{252}{subparagraph*.3236}
+\contentsline {paragraph}{Styles}{253}{paragraph*.3237}
+\contentsline {paragraph}{Events}{253}{paragraph*.3238}
+\contentsline {paragraph}{Example}{253}{paragraph*.3239}
+\contentsline {subparagraph}{C}{254}{subparagraph*.3240}
+\contentsline {subparagraph}{MicroPython}{255}{subparagraph*.3241}
+\contentsline {paragraph}{API}{255}{paragraph*.3242}
+\contentsline {subsubsection}{Preloader (lv\_preload)}{261}{subsubsection*.3391}
+\contentsline {paragraph}{Overview}{261}{paragraph*.3392}
+\contentsline {subparagraph}{Arc length}{261}{subparagraph*.3393}
+\contentsline {subparagraph}{Spinning speed}{261}{subparagraph*.3394}
+\contentsline {subparagraph}{Spin types}{262}{subparagraph*.3395}
+\contentsline {subparagraph}{Spin direction}{262}{subparagraph*.3396}
+\contentsline {paragraph}{Styles}{262}{paragraph*.3397}
+\contentsline {paragraph}{Events}{262}{paragraph*.3398}
+\contentsline {paragraph}{Keys}{262}{paragraph*.3399}
+\contentsline {paragraph}{Example}{262}{paragraph*.3400}
+\contentsline {subparagraph}{C}{263}{subparagraph*.3401}
+\contentsline {subparagraph}{MicroPython}{263}{subparagraph*.3402}
+\contentsline {subparagraph}{MicroPython}{264}{subparagraph*.3403}
+\contentsline {paragraph}{API}{264}{paragraph*.3404}
+\contentsline {subsubsection}{Roller (lv\_roller)}{266}{subsubsection*.3463}
+\contentsline {paragraph}{Overview}{266}{paragraph*.3464}
+\contentsline {subparagraph}{Set options}{266}{subparagraph*.3465}
+\contentsline {subparagraph}{Get selected option}{267}{subparagraph*.3466}
+\contentsline {subparagraph}{Align the options}{267}{subparagraph*.3467}
+\contentsline {subparagraph}{Height and width}{267}{subparagraph*.3468}
+\contentsline {subparagraph}{Animation time}{267}{subparagraph*.3469}
+\contentsline {paragraph}{Styles}{267}{paragraph*.3470}
+\contentsline {paragraph}{Events}{267}{paragraph*.3471}
+\contentsline {paragraph}{Keys}{267}{paragraph*.3472}
+\contentsline {paragraph}{Example}{268}{paragraph*.3473}
+\contentsline {subparagraph}{C}{268}{subparagraph*.3474}
+\contentsline {subparagraph}{MicroPython}{269}{subparagraph*.3475}
+\contentsline {paragraph}{API}{269}{paragraph*.3476}
+\contentsline {subsubsection}{Slider (lv\_slider)}{272}{subsubsection*.3529}
+\contentsline {paragraph}{Overview}{272}{paragraph*.3530}
+\contentsline {paragraph}{Value and range}{272}{paragraph*.3531}
+\contentsline {subparagraph}{Knob placement}{272}{subparagraph*.3532}
+\contentsline {paragraph}{Styles}{272}{paragraph*.3533}
+\contentsline {paragraph}{Events}{272}{paragraph*.3534}
+\contentsline {paragraph}{Keys}{273}{paragraph*.3535}
+\contentsline {paragraph}{Example}{273}{paragraph*.3536}
+\contentsline {subparagraph}{C}{273}{subparagraph*.3537}
+\contentsline {subparagraph}{MicroPython}{276}{subparagraph*.3538}
+\contentsline {paragraph}{API}{276}{paragraph*.3539}
+\contentsline {subsubsection}{Spinbox (lv\_spinbox)}{278}{subsubsection*.3584}
+\contentsline {paragraph}{Overview}{278}{paragraph*.3585}
+\contentsline {subparagraph}{Set format}{279}{subparagraph*.3586}
+\contentsline {subparagraph}{Value and ranges}{279}{subparagraph*.3587}
+\contentsline {paragraph}{Style usage}{279}{paragraph*.3588}
+\contentsline {paragraph}{Events}{279}{paragraph*.3589}
+\contentsline {paragraph}{Keys}{279}{paragraph*.3590}
+\contentsline {paragraph}{Example}{280}{paragraph*.3591}
+\contentsline {subparagraph}{C}{280}{subparagraph*.3592}
+\contentsline {subparagraph}{MicroPython}{281}{subparagraph*.3593}
+\contentsline {paragraph}{API}{281}{paragraph*.3594}
+\contentsline {paragraph}{Example}{283}{paragraph*.3649}
+\contentsline {subsubsection}{Switch (lv\_sw)}{283}{subsubsection*.3650}
+\contentsline {paragraph}{Overview}{283}{paragraph*.3651}
+\contentsline {subparagraph}{Change state}{283}{subparagraph*.3652}
+\contentsline {subparagraph}{Animation time}{283}{subparagraph*.3653}
+\contentsline {paragraph}{Styles}{284}{paragraph*.3654}
+\contentsline {paragraph}{Events}{284}{paragraph*.3655}
+\contentsline {paragraph}{Keys}{284}{paragraph*.3656}
+\contentsline {paragraph}{Example}{284}{paragraph*.3657}
+\contentsline {subparagraph}{C}{285}{subparagraph*.3658}
+\contentsline {subparagraph}{MicroPython}{286}{subparagraph*.3659}
+\contentsline {paragraph}{API}{286}{paragraph*.3660}
+\contentsline {subsubsection}{Table (lv\_table)}{288}{subsubsection*.3707}
+\contentsline {paragraph}{Overview}{288}{paragraph*.3708}
+\contentsline {subparagraph}{Rows and Columns}{289}{subparagraph*.3709}
+\contentsline {subparagraph}{Width and Height}{289}{subparagraph*.3710}
+\contentsline {subparagraph}{Set cell value}{289}{subparagraph*.3711}
+\contentsline {subparagraph}{Align}{289}{subparagraph*.3712}
+\contentsline {subparagraph}{Cell type}{289}{subparagraph*.3713}
+\contentsline {subparagraph}{Merge cells}{289}{subparagraph*.3714}
+\contentsline {subparagraph}{Crop text}{290}{subparagraph*.3715}
+\contentsline {subparagraph}{Scroll}{290}{subparagraph*.3716}
+\contentsline {paragraph}{Styles}{290}{paragraph*.3717}
+\contentsline {paragraph}{Events}{290}{paragraph*.3718}
+\contentsline {paragraph}{Keys}{290}{paragraph*.3719}
+\contentsline {paragraph}{Example}{290}{paragraph*.3720}
+\contentsline {subparagraph}{C}{291}{subparagraph*.3721}
+\contentsline {subparagraph}{MicroPython}{292}{subparagraph*.3722}
+\contentsline {subparagraph}{MicroPython}{292}{subparagraph*.3723}
+\contentsline {paragraph}{API}{292}{paragraph*.3724}
+\contentsline {subsubsection}{Tabview (lv\_tabview)}{296}{subsubsection*.3803}
+\contentsline {paragraph}{Overview}{296}{paragraph*.3804}
+\contentsline {subparagraph}{Adding tab}{296}{subparagraph*.3805}
+\contentsline {subparagraph}{Change tab}{297}{subparagraph*.3806}
+\contentsline {subparagraph}{Tab button’s position}{297}{subparagraph*.3807}
+\contentsline {subparagraph}{Hide the tabs}{297}{subparagraph*.3808}
+\contentsline {subparagraph}{Animation time}{297}{subparagraph*.3809}
+\contentsline {paragraph}{Style usage}{297}{paragraph*.3810}
+\contentsline {paragraph}{Events}{298}{paragraph*.3811}
+\contentsline {paragraph}{Keys}{298}{paragraph*.3812}
+\contentsline {paragraph}{Example}{298}{paragraph*.3813}
+\contentsline {subparagraph}{C}{298}{subparagraph*.3814}
+\contentsline {subparagraph}{MicroPython}{299}{subparagraph*.3815}
+\contentsline {paragraph}{API}{299}{paragraph*.3816}
+\contentsline {subsubsection}{Text area (lv\_ta)}{303}{subsubsection*.3911}
+\contentsline {paragraph}{Overview}{303}{paragraph*.3912}
+\contentsline {subparagraph}{Add text}{303}{subparagraph*.3913}
+\contentsline {subparagraph}{Placeholder}{303}{subparagraph*.3914}
+\contentsline {subparagraph}{Delete character}{303}{subparagraph*.3915}
+\contentsline {subparagraph}{Move the cursor}{303}{subparagraph*.3916}
+\contentsline {subparagraph}{Cursor types}{304}{subparagraph*.3917}
+\contentsline {subparagraph}{One line mode}{304}{subparagraph*.3918}
+\contentsline {subparagraph}{Password mode}{304}{subparagraph*.3919}
+\contentsline {subparagraph}{Text align}{304}{subparagraph*.3920}
+\contentsline {subparagraph}{Accepted characters}{304}{subparagraph*.3921}
+\contentsline {subparagraph}{Max text length}{304}{subparagraph*.3922}
+\contentsline {subparagraph}{Very long texts}{305}{subparagraph*.3923}
+\contentsline {subparagraph}{Select text}{305}{subparagraph*.3924}
+\contentsline {subparagraph}{Scrollbars}{305}{subparagraph*.3925}
+\contentsline {subparagraph}{Scroll propagation}{305}{subparagraph*.3926}
+\contentsline {subparagraph}{Edge flash}{305}{subparagraph*.3927}
+\contentsline {paragraph}{Style usage}{305}{paragraph*.3928}
+\contentsline {paragraph}{Events}{306}{paragraph*.3929}
+\contentsline {paragraph}{Keys}{306}{paragraph*.3930}
+\contentsline {paragraph}{Example}{306}{paragraph*.3931}
+\contentsline {subparagraph}{C}{306}{subparagraph*.3932}
+\contentsline {subparagraph}{MicroPython}{307}{subparagraph*.3933}
+\contentsline {paragraph}{API}{307}{paragraph*.3934}
+\contentsline {subsubsection}{Tile view (lv\_tileview)}{315}{subsubsection*.4105}
+\contentsline {paragraph}{Overview}{315}{paragraph*.4106}
+\contentsline {subparagraph}{Valid positions}{315}{subparagraph*.4107}
+\contentsline {subparagraph}{Add element}{315}{subparagraph*.4108}
+\contentsline {subparagraph}{Set tile}{316}{subparagraph*.4109}
+\contentsline {subparagraph}{Animation time}{316}{subparagraph*.4110}
+\contentsline {subparagraph}{Edge flash}{316}{subparagraph*.4111}
+\contentsline {paragraph}{Styles}{316}{paragraph*.4112}
+\contentsline {paragraph}{Events}{316}{paragraph*.4113}
+\contentsline {paragraph}{Keys}{317}{paragraph*.4114}
+\contentsline {paragraph}{Example}{317}{paragraph*.4115}
+\contentsline {subparagraph}{C}{317}{subparagraph*.4116}
+\contentsline {subparagraph}{MicroPython}{318}{subparagraph*.4117}
+\contentsline {paragraph}{API}{318}{paragraph*.4118}
+\contentsline {subsubsection}{Window (lv\_win)}{321}{subsubsection*.4169}
+\contentsline {paragraph}{Overview}{321}{paragraph*.4170}
+\contentsline {subparagraph}{Title}{321}{subparagraph*.4171}
+\contentsline {subparagraph}{Control buttons}{321}{subparagraph*.4172}
+\contentsline {subparagraph}{Scrollbars}{321}{subparagraph*.4173}
+\contentsline {subparagraph}{Manual scroll and focus}{321}{subparagraph*.4174}
+\contentsline {subparagraph}{Layout}{321}{subparagraph*.4175}
+\contentsline {paragraph}{Style usage}{321}{paragraph*.4176}
+\contentsline {paragraph}{Events}{322}{paragraph*.4177}
+\contentsline {paragraph}{Keys}{322}{paragraph*.4178}
+\contentsline {paragraph}{Example}{322}{paragraph*.4179}
+\contentsline {subparagraph}{C}{323}{subparagraph*.4180}
+\contentsline {subparagraph}{MicroPython}{323}{subparagraph*.4181}
+\contentsline {paragraph}{API}{324}{paragraph*.4182}

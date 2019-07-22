@@ -1,3 +1,6 @@
+```eval_rst
+:github_url: https://github.com/littlevgl/docs/blob/master/en/object-types/list.md
+```
 # List (lv_list)
 
 ## Overview
@@ -7,7 +10,7 @@ The Buttons contain an optional icon-like [Image](/object-types/img) (which can 
 When the list becomes long enough it can be scrolled. 
 
 ### Add buttons
-You can add new list elements with `lv_list_add_btn(list, &icon_img, "Text", event_cb)` or with symbol `lv_list_add_btn(list, SYMBOL_EDIT, "Edit text")`. 
+You can add new list elements with `lv_list_add_btn(list, &icon_img, "Text")` or with symbol `lv_list_add_btn(list, SYMBOL_EDIT, "Edit text")`. 
 If you do not want to add image use `NULL` as image source. The function returns with a pointer to the created button to allow further configurations.
 
 The width of the buttons is set to maximum according to the object width. 
